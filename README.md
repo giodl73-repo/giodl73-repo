@@ -46,7 +46,7 @@ The model doesn't get smarter. The **skill library does.**
 
 Every skill ships with a **golden quest**: a reference prompt paired with a known-good output. New variations get scored against the golden; a variation that beats it gets promoted. A customer test that finds the skill confusing triggers an amendment. Rubrics move **forward-only** — old work is judged by the old bar, new work meets the new one. *The quest loop builds the ship. The customer test confirms it floats.*
 
-When a run produces something the rubric *didn't anticipate* — a new kind of finding, a new angle of attack, a better structure — it goes into the **innovation log**. Once a cluster forms, the rubric version increments. LUCIA's chapter rubric has cycled through seven versions that way; MAXIM has gate-promoted ~2,170 guides against an evolving style contract; PANEL's CEMCK rubric has been re-tuned off its own review rounds. The bar keeps rising because the work itself keeps raising it.
+When a run produces something the rubric *didn't anticipate* — a new kind of finding, a new angle of attack, a better structure — it goes into the **innovation log**. Once a cluster forms, the rubric version increments. LUCIA's chapter rubric has cycled through seven versions that way; MAXIM has gate-promoted ~2,170 guides against an evolving style contract; PANEL's CEMCK rubric has been re-tuned off its own review rounds; TIGRIS's 32-axis pool is 144 consecutive games deep with one retired axis and three live; QUEST has moved a playtest rubric v1.0 → v1.12 across seven campaigns without a single retroactive rescore. The bar keeps rising because the work itself keeps raising it.
 
 **New skills don't get invented; they get earned.** A finding that surfaces repeatedly across investigations becomes the candidate for a new skill. Ideas become skills when the evidence says they should, and every artifact keeps a provenance frontmatter so you can always ask: *what did we think we learned vs. what did we actually learn?*
 
@@ -54,9 +54,9 @@ That's the loop. Skills produce dated evidence. Evidence surfaces patterns. Patt
 
 ---
 
-## The pattern, applied
+## The pattern, applied — writing at scale
 
-Three more projects run this same discipline against subject matter that isn't software.
+Four projects run this same discipline against subject matter that isn't software. Two chronicle, two reference; all four use the loop to generate long-form content that stays internally coherent because every chapter, guide, or paper had to pass a panel before it shipped.
 
 ### [LUCIA](https://github.com/giodl73-repo/LUCIA) — the human chronicle
 
@@ -70,6 +70,14 @@ An **11-stage pipeline** (OPENING → GATE-1 → PANEL-1 → NOTES → PANEL-2 �
 
 Review skills (`/reference-review sweep | file | clean`), **`@editor` tags** with P1/P2/P3 priority tiering, style contract gates, and a graduation check before a guide leaves review. Skills built MAXIM; skills keep it honest.
 
+### [RESONANCE](https://github.com/giodl73-repo/RESONANCE) — research laboratory
+
+*Where in nature, in history, in biology, in music, in matter does resonance show up — and what does a civilization that has lost it do to get it back?* A personal research lab built around the **Resonance Merge Model**: **τ ≈ O × (1 − R)** — a single formula for the tension produced when two distinct threads of experience are forced into contact.
+
+**~800 papers across ~115 research modules** — core theory, contact dynamics, civilizational collapse, consciousness, perception, physics, cosmology, and the pantheons of seven cultures. A standing cast of named agents drives authoring and review: **MERIDIAN** (program chair), **RESONANCE** (author), **HERALD** (editor), **LAMBDA** and **LOKI** (adversarial reviewers), **AXIOM / IMHOTEP / CLIO** (domain specialists), with **60+ custom skills** organized into discover, simulate, validate, specify, rhythm, panel, and roles. Every paper clears a 25-point rubric, a panel review, and an editorial pass before promotion; modules clear a module-level review before the module itself is promoted.
+
+Two book series run on the same engine: the **Contact Series** (the formula applied at human and cultural scale — TENSION, OBSERVATION, RESONANCE, MANAGE/SIGNAL, CYCLE) and the **Pantheon Series** (mythology mapped to modern science — TITANS complete; AESIR, OLYMPIANS, NETJERU, DEVAS, APUKUNA, TEOTL, KUHUL in progress). MAXIM's reference discipline, pointed at an open theoretical question instead of an established field.
+
 ### [CERES](https://github.com/giodl73-repo/CERES) — local production atlas
 
 *Can a town of five thousand restore a working forge, a bakery that sells wholesale, a weaving co-op?* CERES tests whether the answer is yes — and why, for whom, and at what cost. Named after Ceres, Roman goddess of grain and the nourishment of settlements.
@@ -80,9 +88,35 @@ A catalog-driven design and evaluation project for modern artisan-production equ
 
 ---
 
+## The games — same discipline, different medium
+
+Three projects point the emergent-skills loop at game design. Games are a good stress test for the method: a puzzle that can't be solved, a D&D session that drags, a board game that never hits the table — these are failures the rubric has to feel and fix. All three are workshops that learn from their own output.
+
+### [HUNT](https://github.com/giodl73-repo/HUNT) — puzzle hunt production pipeline
+
+A Claude Code skills pipeline that builds a real puzzle hunt — from blank page to print-and-web shipping package — with review gates that block you until the work clears the bar. **17 slash-command skills**, **30 reviewer personas** (Dan Katz on structure, Thomas Snyder on puzzle craftsmanship, Mike Selinker on narrative, Wei-Hwa Huang on deductive rigor, Rand Miller on world-as-puzzle, Jonathan Blow on epiphany design, Lucas Pope on deductive identification, plus 23 more), **12 solver archetypes** for blind testing, and **20 design principles** each with a source, a one-line statement, and a failing test.
+
+An **11-stage crash-safe pipeline** (SCOPE → STRUCTURE → POOL → ASSIGNMENT → META → AUTHOR → EDIT → INTEGRATION → BUILD → PLATFORM TEST → POLISH) with a review gate between every stage. Nine end-to-end hunts already in `scenarios/`; every bug surfaced during a run becomes a toolkit improvement that gets backported, with `BUGS.md` as the receipt.
+
+### [QUEST](https://github.com/giodl73-repo/QUEST) — D&D workshop that learns from itself
+
+A **Dragonlance-set D&D 5e** adventure workshop where nothing in the catalogs is pre-seeded. Every player-style, every rubric amendment, every insight *emerges* from observed play — `playtest-innovation` runs threshold checks after every session and promotes a rubric axis when 2+ innovations cluster in the same dimension, or drafts a new player-style when 3+ innovations cluster across ≥ 2 sessions. Creative principle: *the treasures are the story.*
+
+**20 skills across design/play/learn**, a **7-stage session pipeline** (PREP → PLAY → LOG → GATE → PANEL → INNOVATION → HANDOFF), and a deterministic Python game engine that owns dice, state, and PC decision-heuristics so the LLM can own narrative and nothing else. **Seven campaigns, 49 sessions, rubric v1.0 → v1.12** — forward-only, no retroactive rescoring. Player-styles like `sheet-deep-reader`, `act-without-announcement`, and `documentary-witness` weren't designed; they were discovered, validated across parties, and promoted.
+
+### [TIGRIS](https://github.com/giodl73-repo/TIGRIS) — board game factory
+
+Named for Knizia's *Tigris & Euphrates*. Reviews published games and designs new ones, but the interesting move is what the corpus discovered on its own: **TIGER BEAT** — a 9-dimensional coordinate system for board games, found by scoring **150 games across 28 axes** and letting the underlying geometry fall out.
+
+The five primary dimensions (72% of the variance) are **TIGER** — Tension, Interaction, Game-spectrum, Experiential, Range. The four secondary (the remaining 28%) are **BEAT** — Breadth, Emotional Arc, Accessibility, Texture. G turned out to be **bipolar**: deep engine vs. elegant minimalism, nothing in the middle — Lisboa sits at 6.5, Crokinole at 0.3, the corpus bifurcates. Every game now has a 9-number profile, which means you can plot them, find neighbors, find **gaps** — and design into the gaps on purpose.
+
+Reviews happen via **Parliament**: eight designer personas (Knizia, Rosenberg, Feld, Lacerda, Chvátil, Kramer–Kiesling, Stegmaier, Vaccarino) draft incompatible stakes against a design; a narrated playthrough attacks, defends, and collides them on adjacent axes; a deterministic amendment step promotes, retires, or holds axes based on what happened. **31 original games designed**, including RITE (first to land in Gap 1, previously empty across 150 games) and CODEX (first designed to attack an empty region on purpose). Rubric v2.24.85, 32-axis pool, one retired axis, three live.
+
+---
+
 ## Side project
 
-### [DEXTRO](https://github.com/giodl73-repo/DEXTRO) — automated congressional redistricting
+### [REDIST](https://github.com/giodl73-repo/REDIST) — automated congressional redistricting
 
 Draws all **435 congressional districts** across **50 US states** and **three census years** (2000, 2010, 2020) via **recursive bifurcation** using the **METIS** graph partitioning algorithm. Census tracts are the atoms; a queen-contiguity adjacency graph — with **county-aware, water-based adjacency** so San Francisco Bay and island tracts resolve correctly — is the substrate. Each state splits in half, halves split recursively, until every region holds one district, with the split tree preserved as a rounds hierarchy you can walk back through.
 
@@ -94,12 +128,23 @@ Around the algorithm sits the same AI-first tooling as the rest: **31 Claude Cod
 
 ## The shared pattern
 
-|          | SIGNALS                    | PANEL                     | LUCIA                         | MAXIM                       | CERES                          |
-|----------|----------------------------|---------------------------|-------------------------------|-----------------------------|--------------------------------|
-| **skills**   | 62 across 9 namespaces     | 16 research sub-skills    | 15+ chronicle pipeline skills | 5 reference review skills   | 4+ CERES review skills         |
-| **pipeline** | discover → specify → validate → prove → ship | draft → panel → synthesis → revision → submit | OPENING → GATE → PANEL → NOTES → WRITE → GATE → BOARD → FINAL | sweep → file → clean → graduate | research → catalog → matrix → simulate → playbook |
-| **rubric**   | golden quest + customer test | CEMCK (25 pt)             | Gate (30) + Chronicle (60)    | style contract + @editor tiers | 6-voice panel + 3 editorial gates |
-| **artifact** | `{topic}-{signal}-{date}.md` | `REVIEW-{name}.md` + SYNTHESIS | `opening.md` + `chapter.md`   | `{field}/{NN}-{topic}.md`   | catalog entry + playbook file  |
+**Writing at scale** — the pattern against long-form content.
+
+|              | SIGNALS                     | PANEL                          | LUCIA                              | MAXIM                          | RESONANCE                      | CERES                             |
+|--------------|-----------------------------|--------------------------------|------------------------------------|--------------------------------|--------------------------------|-----------------------------------|
+| **skills**   | 62 across 9 namespaces      | 16 research sub-skills         | 15+ chronicle pipeline skills      | 5 reference review skills      | 60+ across 7 domains           | 4+ CERES review skills            |
+| **pipeline** | discover → specify → validate → prove → ship | draft → panel → synthesis → revision → submit | OPENING → GATE → PANEL → NOTES → WRITE → GATE → BOARD → FINAL | sweep → file → clean → graduate | discover → draft → panel → editorial → promote | research → catalog → matrix → simulate → playbook |
+| **rubric**   | golden quest + customer test | CEMCK (25 pt)                 | Gate (30) + Chronicle (60)         | style contract + @editor tiers | 25-pt + module + board         | 6-voice panel + 3 editorial gates |
+| **artifact** | `{topic}-{signal}-{date}.md` | `REVIEW-{name}.md` + SYNTHESIS | `opening.md` + `chapter.md`        | `{field}/{NN}-{topic}.md`      | paper + `panel/*.md` + score   | catalog entry + playbook file     |
+
+**Games** — the pattern against play. Different medium, same loop.
+
+|              | HUNT                                                   | QUEST                                         | TIGRIS                                         |
+|--------------|--------------------------------------------------------|-----------------------------------------------|------------------------------------------------|
+| **skills**   | 17 hunt + puzzle skills                                | 20 design / play / learn skills               | 6 factory skills (ideate, concept, design, panel, amendment, handoff) |
+| **pipeline** | SCOPE → STRUCTURE → POOL → META → AUTHOR → EDIT → INTEGRATION → BUILD → TEST → POLISH | PREP → PLAY → LOG → GATE → PANEL → INNOVATION → HANDOFF | ideate → concept → design → Parliament → amendment → handoff |
+| **rubric**   | 20 principles + 30-profile panel + 12 solver archetypes | 8-axis design + 8-axis playtest + innovation log | 32-axis Pool + 8-designer Parliament + forward-only amendment |
+| **artifact** | `scenarios/<hunt>/` + backport to `toolkit/`           | `sessions/S{N}-{prep,log,gate,panel,…}.md` + `TRACKER.md` | `games/<NNNN>-<slug>/` + TIGER BEAT score row |
 
 Different domains. Same discipline.
 
