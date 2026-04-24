@@ -54,43 +54,9 @@ That's the loop. Skills produce dated evidence. Evidence surfaces patterns. Patt
 
 ---
 
-## The pattern, applied — writing at scale
+## The games — where the loop shows up most clearly
 
-Four projects run this same discipline against subject matter that isn't software. Two chronicle, two reference; all four use the loop to generate long-form content that stays internally coherent because every chapter, guide, or paper had to pass a panel before it shipped.
-
-### [LUCIA](https://github.com/giodl73-repo/LUCIA) — the human chronicle
-
-A narrative encyclopedia of human civilization — **26 regions, ~260 peoples, 115 chapters locked** — told from inside each culture's own worldview. Named after LUCY, a German Shorthaired Pointer who always goes through the gate first.
-
-An **11-stage pipeline** (OPENING → GATE-1 → PANEL-1 → NOTES → PANEL-2 → FIXES → WRITE → GATE-2 → CLEAN → BOARD → FINAL), two rubrics (**The Gate**, 30pts; **The Chronicle**, 60pts), and a five-voice permanent panel: Barbara Tuchman, Ibn Khaldun, Chinua Achebe, Wade Davis, Ryszard Kapuściński. The **Achebe Test** is the line nothing crosses without passing: *could a thoughtful member of this culture read this and feel their story was told with dignity, from inside?*
-
-### [MAXIM](https://github.com/giodl73-repo/MAXIM) — the reference library
-
-**13 sections, 217 directories, ~2,170 content files, ~14,070 pages, 52 bound volumes.** A self-authored reference spanning computing, mathematics, physics, life sciences, arts, material culture, and everything in between — peer-level depth, never dumbed down, layered ASCII diagrams and decision cheat sheets.
-
-Review skills (`/reference-review sweep | file | clean`), **`@editor` tags** with P1/P2/P3 priority tiering, style contract gates, and a graduation check before a guide leaves review. Skills built MAXIM; skills keep it honest.
-
-### [RESONANCE](https://github.com/giodl73-repo/RESONANCE) — research laboratory
-
-*Where in nature, in history, in biology, in music, in matter does resonance show up — and what does a civilization that has lost it do to get it back?* A personal research lab built around the **Resonance Merge Model**: **τ ≈ O × (1 − R)** — a single formula for the tension produced when two distinct threads of experience are forced into contact.
-
-**~800 papers across ~115 research modules** — core theory, contact dynamics, civilizational collapse, consciousness, perception, physics, cosmology, and the pantheons of seven cultures. A standing cast of named agents drives authoring and review: **MERIDIAN** (program chair), **RESONANCE** (author), **HERALD** (editor), **LAMBDA** and **LOKI** (adversarial reviewers), **AXIOM / IMHOTEP / CLIO** (domain specialists), with **60+ custom skills** organized into discover, simulate, validate, specify, rhythm, panel, and roles. Every paper clears a 25-point rubric, a panel review, and an editorial pass before promotion; modules clear a module-level review before the module itself is promoted.
-
-Two book series run on the same engine: the **Contact Series** (the formula applied at human and cultural scale — TENSION, OBSERVATION, RESONANCE, MANAGE/SIGNAL, CYCLE) and the **Pantheon Series** (mythology mapped to modern science — TITANS complete; AESIR, OLYMPIANS, NETJERU, DEVAS, APUKUNA, TEOTL, KUHUL in progress). MAXIM's reference discipline, pointed at an open theoretical question instead of an established field.
-
-### [CERES](https://github.com/giodl73-repo/CERES) — local production atlas
-
-*Can a town of five thousand restore a working forge, a bakery that sells wholesale, a weaving co-op?* CERES tests whether the answer is yes — and why, for whom, and at what cost. Named after Ceres, Roman goddess of grain and the nourishment of settlements.
-
-A catalog-driven design and evaluation project for modern artisan-production equipment — forges, ovens, looms, kilns. A **five-phase pipeline** (Research → Design catalog → Evaluation matrix → Simulation → Playbook & pitch) runs each variant through a **9-cell matrix** — three settlement scales (village, town, small city) × three economic lenses (market, cooperative, civic) — with a layered simulation stack (deterministic comparator → system dynamics → agent-based).
-
-**Six permanent panel voices** create productive friction: Market Economist, Commons Theorist, Civic Steward, Craft Practitioner, Historian, Skeptical Funder. **Three editorial gates** — Citation Auditor, Scope Keeper, Numeracy Checker — stand between `reviewed` and `validated`. The hypothesis is testable, with registered falsifiers; a rigorous null result is as valid as a positive one.
-
----
-
-## The games — same discipline, different medium
-
-Three projects point the emergent-skills loop at game design. Games are a good stress test for the method: a puzzle that can't be solved, a D&D session that drags, a board game that never hits the table — these are failures the rubric has to feel and fix. All three are workshops that learn from their own output.
+The clearest examples of the emergent-skills loop in the wild are three projects that point it at game design. Games are a good stress test: a puzzle that can't be solved, a D&D session that drags, a board game that never hits the table — failures the rubric has to feel and fix. All three are workshops that learn from their own output.
 
 ### [HUNT](https://github.com/giodl73-repo/HUNT) — puzzle hunt production pipeline
 
@@ -114,6 +80,32 @@ Reviews happen via **Parliament**: eight designer personas (Knizia, Rosenberg, F
 
 ---
 
+## The pattern, applied to long-form content
+
+Three more projects run this same discipline against subject matter that isn't a game and isn't software: a narrative encyclopedia of human civilization, a peer-level reference library, and a local-production atlas. The subject changes; the loop doesn't — every chapter, guide, or playbook has to pass a panel before it ships.
+
+### [LUCIA](https://github.com/giodl73-repo/LUCIA) — the human chronicle
+
+A narrative encyclopedia of human civilization — **26 regions, ~260 peoples, 115 chapters locked** — told from inside each culture's own worldview. Named after LUCY, a German Shorthaired Pointer who always goes through the gate first.
+
+An **11-stage pipeline** (OPENING → GATE-1 → PANEL-1 → NOTES → PANEL-2 → FIXES → WRITE → GATE-2 → CLEAN → BOARD → FINAL), two rubrics (**The Gate**, 30pts; **The Chronicle**, 60pts), and a five-voice permanent panel: Barbara Tuchman, Ibn Khaldun, Chinua Achebe, Wade Davis, Ryszard Kapuściński. The **Achebe Test** is the line nothing crosses without passing: *could a thoughtful member of this culture read this and feel their story was told with dignity, from inside?*
+
+### [MAXIM](https://github.com/giodl73-repo/MAXIM) — the reference library
+
+**13 sections, 217 directories, ~2,170 content files, ~14,070 pages, 52 bound volumes.** A self-authored reference spanning computing, mathematics, physics, life sciences, arts, material culture, and everything in between — peer-level depth, never dumbed down, layered ASCII diagrams and decision cheat sheets.
+
+Review skills (`/reference-review sweep | file | clean`), **`@editor` tags** with P1/P2/P3 priority tiering, style contract gates, and a graduation check before a guide leaves review. Skills built MAXIM; skills keep it honest.
+
+### [CERES](https://github.com/giodl73-repo/CERES) — local production atlas
+
+*Can a town of five thousand restore a working forge, a bakery that sells wholesale, a weaving co-op?* CERES tests whether the answer is yes — and why, for whom, and at what cost. Named after Ceres, Roman goddess of grain and the nourishment of settlements.
+
+A catalog-driven design and evaluation project for modern artisan-production equipment — forges, ovens, looms, kilns. A **five-phase pipeline** (Research → Design catalog → Evaluation matrix → Simulation → Playbook & pitch) runs each variant through a **9-cell matrix** — three settlement scales (village, town, small city) × three economic lenses (market, cooperative, civic) — with a layered simulation stack (deterministic comparator → system dynamics → agent-based).
+
+**Six permanent panel voices** create productive friction: Market Economist, Commons Theorist, Civic Steward, Craft Practitioner, Historian, Skeptical Funder. **Three editorial gates** — Citation Auditor, Scope Keeper, Numeracy Checker — stand between `reviewed` and `validated`. The hypothesis is testable, with registered falsifiers; a rigorous null result is as valid as a positive one.
+
+---
+
 ## Side project
 
 ### [REDIST](https://github.com/giodl73-repo/REDIST) — automated congressional redistricting
@@ -128,16 +120,7 @@ Around the algorithm sits the same AI-first tooling as the rest: **20 research p
 
 ## The shared pattern
 
-**Writing at scale** — the pattern against long-form content.
-
-|              | SIGNALS                     | PANEL                          | LUCIA                              | MAXIM                          | RESONANCE                      | CERES                             |
-|--------------|-----------------------------|--------------------------------|------------------------------------|--------------------------------|--------------------------------|-----------------------------------|
-| **skills**   | 62 across 9 namespaces      | 16 research sub-skills         | 15+ chronicle pipeline skills      | 5 reference review skills      | 60+ across 7 domains           | 4+ CERES review skills            |
-| **pipeline** | discover → specify → validate → prove → ship | draft → panel → synthesis → revision → submit | OPENING → GATE → PANEL → NOTES → WRITE → GATE → BOARD → FINAL | sweep → file → clean → graduate | discover → draft → panel → editorial → promote | research → catalog → matrix → simulate → playbook |
-| **rubric**   | golden quest + customer test | CEMCK (25 pt)                 | Gate (30) + Chronicle (60)         | style contract + @editor tiers | 25-pt + module + board         | 6-voice panel + 3 editorial gates |
-| **artifact** | `{topic}-{signal}-{date}.md` | `REVIEW-{name}.md` + SYNTHESIS | `opening.md` + `chapter.md`        | `{field}/{NN}-{topic}.md`      | paper + `panel/*.md` + score   | catalog entry + playbook file     |
-
-**Games** — the pattern against play. Different medium, same loop.
+**Games** — the pattern against play.
 
 |              | HUNT                                                   | QUEST                                         | TIGRIS                                         |
 |--------------|--------------------------------------------------------|-----------------------------------------------|------------------------------------------------|
@@ -145,6 +128,15 @@ Around the algorithm sits the same AI-first tooling as the rest: **20 research p
 | **pipeline** | SCOPE → STRUCTURE → POOL → META → AUTHOR → EDIT → INTEGRATION → BUILD → TEST → POLISH | PREP → PLAY → LOG → GATE → PANEL → INNOVATION → HANDOFF | ideate → concept → design → Parliament → amendment → handoff |
 | **rubric**   | 20 principles + 30-profile panel + 12 solver archetypes | 8-axis design + 8-axis playtest + innovation log | 32-axis Pool + 8-designer Parliament + forward-only amendment |
 | **artifact** | `scenarios/<hunt>/` + backport to `toolkit/`           | `sessions/S{N}-{prep,log,gate,panel,…}.md` + `TRACKER.md` | `games/<NNNN>-<slug>/` + TIGER BEAT score row |
+
+**Long-form content** — the pattern against writing at scale.
+
+|              | SIGNALS                     | PANEL                          | LUCIA                              | MAXIM                          | CERES                             |
+|--------------|-----------------------------|--------------------------------|------------------------------------|--------------------------------|-----------------------------------|
+| **skills**   | 62 across 9 namespaces      | 16 research sub-skills         | 15+ chronicle pipeline skills      | 5 reference review skills      | 4+ CERES review skills            |
+| **pipeline** | discover → specify → validate → prove → ship | draft → panel → synthesis → revision → submit | OPENING → GATE → PANEL → NOTES → WRITE → GATE → BOARD → FINAL | sweep → file → clean → graduate | research → catalog → matrix → simulate → playbook |
+| **rubric**   | golden quest + customer test | CEMCK (25 pt)                 | Gate (30) + Chronicle (60)         | style contract + @editor tiers | 6-voice panel + 3 editorial gates |
+| **artifact** | `{topic}-{signal}-{date}.md` | `REVIEW-{name}.md` + SYNTHESIS | `opening.md` + `chapter.md`        | `{field}/{NN}-{topic}.md`      | catalog entry + playbook file     |
 
 Different domains. Same discipline.
 
