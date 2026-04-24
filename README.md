@@ -1,6 +1,6 @@
 # Gio Della-Libera
 
-VP of Engineering at Microsoft on **Agents 353**.
+VP of Engineering at Microsoft on **Agents 365**.
 
 ## I believe in AI-first development
 
