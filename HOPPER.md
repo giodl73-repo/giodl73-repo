@@ -92,10 +92,36 @@ target conditions.
 
 ## Picking next
 
-If picking one repo to start: **cocktails**. Cleanest TIGRIS-clone, real
-personas to simulate, parliaments are entertaining, gaps are real (alcohol-free
-that's actually great), build is fast, output is shareable. Doesn't compete
-with anything in the current portfolio.
+**Video games** is the chosen next domain. Same TIGRIS-shape: a corpus of
+games scored across dimensions (mechanics, pace, agency, progression model,
+narrative density, social grain, time-to-mastery, etc.), persona panel of
+named designers, gap-finding into under-explored regions of the design space.
+
+### Name candidates
+
+| Name | Hook |
+|------|------|
+| **LUDIC** | Latin *ludus* (play); academic-grade name from game studies. Strong fit. |
+| **VOXEL** | 3D pixel; specifically video-game-flavored; modern feel. |
+| **PIXEL** | The fundamental unit; instant gaming association. |
+| **BIOME** | Game-world ecology; suits world-building / open-world analysis. |
+| **GENRE** | Meta about genre evolution. On-the-nose but accurate. |
+| **NEXUS** | Hub of systems; intersection-of-mechanics framing. |
+| **SHARD** | MMORPG instance; fits multi-world / multi-server analyses. |
+| **ARENA** | Competitive games; combat-genre lean. |
+| **VECTOR** | Direction and motion; physics-and-flow framing. |
+| **SAGA** | Narrative-driven games; Nordic feel; pairs with TIGRIS / CERES tonally. |
+
+Top three by my read: **LUDIC** (most distinctive + scholarly tone),
+**VOXEL** (most video-game-specific + modern), **PIXEL** (most iconic).
+
+---
+
+## Earlier candidate considered first
+
+Cocktails was the original "next pick" — still a strong TIGRIS-clone fit
+(established corpus, real bartender personas, gaps in alcohol-free, fast
+build, shareable output). Park for after video games.
 
 ---
 
