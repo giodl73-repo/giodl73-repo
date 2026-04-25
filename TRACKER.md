@@ -29,14 +29,14 @@ Things every public repo should have before it's broadcast widely.
 |  | LICENSE | README ## License | AI-sim disclaimers on personas | Internal naming scrubbed | Local state files gitignored | Research PDFs built | README links to PDFs |
 |---|---|---|---|---|---|---|---|
 | SIGNALS | [x] | [x] | n/a | [x] | [x] | n/a | n/a |
-| PANEL | [x] | [x] | [x] | [x] | [x] | [ ] | [ ] |
+| PANEL | [x] | [x] | [x] | [x] | [x] | [x] (10/10) | [x] |
 | LUCIA | [x] | [x] | [x] | [x] | [x] | n/a (md) | n/a |
 | MAXIM | [x] | [x] | n/a | [x] | [x] | n/a | n/a |
 | CERES | [x] | [x] | [x] | [x] | [x] | n/a | n/a |
 | REDIST | [x] | [x] | n/a | [x] | [x] | [x] | [x] |
-| HUNT | [x] | [x] | [x] | [x] | [x] | [ ] | [ ] |
-| QUEST | [x] | [x] | [x] | [x] | [x] | [ ] | [ ] |
-| TIGRIS | [x] | [x] | [x] | [x] | [x] | [ ] | [ ] |
+| HUNT | [x] | [x] | [x] | [x] | [x] | [~] (6/7) | [x] |
+| QUEST | [x] | [x] | [x] | [x] | [x] | [x] (6/6) | [x] |
+| TIGRIS | [x] | [x] | [x] | [x] | [x] | [x] (6/6) | [x] |
 | ASPECT | [x] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | giodl73-repo | [x] | [x] | n/a | [x] | [x] | n/a | n/a |
 
@@ -44,23 +44,14 @@ Things every public repo should have before it's broadcast widely.
 
 ## Pending — known issues
 
-### LaTeX build failures (8 papers across 4 repos)
+### LaTeX build failures (1 remaining of 8)
 
 | Repo | Paper | Status |
 |------|-------|--------|
-| TIGRIS | `tiger-pca-dimensions` | FAILED |
-| TIGRIS | `tiger-fingerprinting` | FAILED |
-| QUEST | `glyph-resource-exhaustion` | FAILED |
-| QUEST | `glyph-rubric-amendment` | FAILED |
-| HUNT | `games-human-ai-calibration` | FAILED |
-| PANEL | `hierarchical-review-architecture` | FAILED |
-| PANEL | `meta-research-automation` | FAILED |
-| PANEL | `reviewer-profiles` | FAILED |
+| HUNT | `games-human-ai-calibration` | pgfplots chart issue with `symbolic_y_coords` and `Rdg.\ Reward` data label — needs hand-fix (chart data uses brace-wrapped labels that pgfplots can't reconcile with stored coords) |
 
 ### Other follow-ups
 
-- `## Research` README sections in PANEL / TIGRIS / QUEST / HUNT link to
-  source directories. Switch to `…/main.pdf` once builds are clean.
 - A handful of `*.aux`, `*.log`, `*.out` files were committed in HUNT before
   `.gitignore` covered them. Untrack on next pass.
 - Stale feature branches still pushed to a few repos — review/close.
