@@ -17,6 +17,7 @@ Status board for the 10 public repos in `giodl73-repo`. Updated as work happens.
 | [HUNT](https://github.com/giodl73-repo/HUNT) | puzzle hunt pipeline | `master` | 7 (LaTeX) |
 | [QUEST](https://github.com/giodl73-repo/QUEST) | D&D workshop | `main` | 6 (LaTeX) |
 | [TIGRIS](https://github.com/giodl73-repo/TIGRIS) | board game factory | `main` | 6 (LaTeX) |
+| [ASPECT](https://github.com/giodl73-repo/ASPECT) | visualization evaluation framework | `main` | — |
 | [giodl73-repo](https://github.com/giodl73-repo/giodl73-repo) | profile / front door | `main` | — |
 
 ---
@@ -36,6 +37,7 @@ Things every public repo should have before it's broadcast widely.
 | HUNT | [x] | [x] | [x] | [x] | [x] | [ ] | [ ] |
 | QUEST | [x] | [x] | [x] | [x] | [x] | [ ] | [ ] |
 | TIGRIS | [x] | [x] | [x] | [x] | [x] | [ ] | [ ] |
+| ASPECT | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | giodl73-repo | [x] | [x] | n/a | [x] | [x] | n/a | n/a |
 
 ---

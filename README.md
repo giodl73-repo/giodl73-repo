@@ -82,7 +82,7 @@ Reviews happen via **Parliament**: eight designer personas (Knizia, Rosenberg, F
 
 ## The pattern, applied to long-form content
 
-Three more projects run this same discipline against subject matter that isn't a game and isn't software: a narrative encyclopedia of human civilization, a peer-level reference library, and a local-production atlas. The subject changes; the loop doesn't — every chapter, guide, or playbook has to pass a panel before it ships.
+Four more projects run this same discipline against subject matter that isn't a game and isn't software: a narrative encyclopedia of human civilization, a peer-level reference library, a local-production atlas, and a visualization-evaluation framework. The subject changes; the loop doesn't — every chapter, guide, playbook, or scorecard has to pass a panel before it ships.
 
 ### [LUCIA](https://github.com/giodl73-repo/LUCIA) — the human chronicle
 
@@ -103,6 +103,14 @@ Review skills (`/reference-review sweep | file | clean`), **`@editor` tags** wit
 A catalog-driven design and evaluation project for modern artisan-production equipment — forges, ovens, looms, kilns. A **five-phase pipeline** (Research → Design catalog → Evaluation matrix → Simulation → Playbook & pitch) runs each variant through a **9-cell matrix** — three settlement scales (village, town, small city) × three economic lenses (market, cooperative, civic) — with a layered simulation stack (deterministic comparator → system dynamics → agent-based).
 
 **Six permanent panel voices** create productive friction: Market Economist, Commons Theorist, Civic Steward, Craft Practitioner, Historian, Skeptical Funder. **Three editorial gates** — Citation Auditor, Scope Keeper, Numeracy Checker — stand between `reviewed` and `validated`. The hypothesis is testable, with registered falsifiers; a rigorous null result is as valid as a positive one.
+
+### [ASPECT](https://github.com/giodl73-repo/ASPECT) — visualization evaluation framework
+
+A six-dimensional rubric for evaluating, designing, and evolving visualization work — from quantitative statistical graphics to pure artistic expression. **A**im, **S**chool, **P**recision, **E**ffect, **C**larity, **T**ruth — 100 points across the lot.
+
+Reviews happen via a panel of ten historical visualizers — Minard, Tufte, Nightingale, Playfair, Bertin, Neurath, Beck, Kandinsky, Du Bois, Rosling. They disagree by design. **Fourteen visualization schools** (statistical graphics, cartography, ISOTYPE, scientific illustration, narrative visualization, data art, mathematical-proof visualization, and more) hold each work to its own grammar — a piece of advocacy-visualization is not measured against the same rules as a piece of statistical graphics.
+
+**55 works scored**, ranging from **57.1** (WWI propaganda — Advisory) to **93.6** (the Pythagorean Chu-pei proof). Six Advisory scores all confirmed advocacy-as-coercion: WWI propaganda, tobacco physician endorsements, Soviet Five-Year Plan statistics, pharmaceutical subgroup cherry-picking, partisan gerrymandering, climate-denial baseline manipulation. Pipeline: BRIEF → SCHOOL → DESIGN → PANEL → INNOVATION → AMENDMENT → HANDOFF. The rubric reached **v3.0 through 300 innovations and 21 amendment clusters** — evolved by use, not by design.
 
 ---
 
@@ -133,12 +141,12 @@ Around all of it sits the same AI-first tooling as the rest: **20 research paper
 
 **Long-form content** — the pattern against writing at scale.
 
-|              | SIGNALS                     | PANEL                          | LUCIA                              | MAXIM                          | CERES                             |
-|--------------|-----------------------------|--------------------------------|------------------------------------|--------------------------------|-----------------------------------|
-| **skills**   | 62 across 9 namespaces      | 16 research sub-skills         | 15+ chronicle pipeline skills      | 5 reference review skills      | 4+ CERES review skills            |
-| **pipeline** | discover → specify → validate → prove → ship | draft → panel → synthesis → revision → submit | OPENING → GATE → PANEL → NOTES → WRITE → GATE → BOARD → FINAL | sweep → file → clean → graduate | research → catalog → matrix → simulate → playbook |
-| **rubric**   | golden quest + customer test | CEMCK (25 pt)                 | Gate (30) + Chronicle (60)         | style contract + @editor tiers | 6-voice panel + 3 editorial gates |
-| **artifact** | `{topic}-{signal}-{date}.md` | `REVIEW-{name}.md` + SYNTHESIS | `opening.md` + `chapter.md`        | `{field}/{NN}-{topic}.md`      | catalog entry + playbook file     |
+|              | SIGNALS                     | PANEL                          | LUCIA                              | MAXIM                          | CERES                             | ASPECT                            |
+|--------------|-----------------------------|--------------------------------|------------------------------------|--------------------------------|-----------------------------------|-----------------------------------|
+| **skills**   | 62 across 9 namespaces      | 16 research sub-skills         | 15+ chronicle pipeline skills      | 5 reference review skills      | 4+ CERES review skills            | 7-stage pipeline skills           |
+| **pipeline** | discover → specify → validate → prove → ship | draft → panel → synthesis → revision → submit | OPENING → GATE → PANEL → NOTES → WRITE → GATE → BOARD → FINAL | sweep → file → clean → graduate | research → catalog → matrix → simulate → playbook | BRIEF → SCHOOL → DESIGN → PANEL → INNOVATION → AMENDMENT → HANDOFF |
+| **rubric**   | golden quest + customer test | CEMCK (25 pt)                 | Gate (30) + Chronicle (60)         | style contract + @editor tiers | 6-voice panel + 3 editorial gates | ASPECT (100 pt) + 10-persona panel + 14 schools |
+| **artifact** | `{topic}-{signal}-{date}.md` | `REVIEW-{name}.md` + SYNTHESIS | `opening.md` + `chapter.md`        | `{field}/{NN}-{topic}.md`      | catalog entry + playbook file     | scorecard + design brief          |
 
 Different domains. Same discipline.
 
