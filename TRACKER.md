@@ -28,16 +28,16 @@ Things every public repo should have before it's broadcast widely.
 
 |  | LICENSE | README ## License | AI-sim disclaimers on personas | Internal naming scrubbed | Local state files gitignored | Research PDFs built | README links to PDFs | README score (/50) | Aligned |
 |---|---|---|---|---|---|---|---|---:|---|
-| SIGNALS | [x] | [x] | n/a | [x] | [x] | n/a | n/a | — | — |
-| PANEL | [x] | [x] | [x] | [x] | [x] | [x] (10/10) | [x] | — | — |
-| LUCIA | [x] | [x] | [x] | [x] | [x] | n/a (md) | n/a | — | — |
-| MAXIM | [x] | [x] | n/a | [x] | [x] | n/a | n/a | — | — |
-| CERES | [x] | [x] | [x] | [x] | [x] | n/a | n/a | — | — |
-| REDIST | [x] | [x] | n/a | [x] | [x] | [x] | [x] | — | — |
-| HUNT | [x] | [x] | [x] | [x] | [x] | [~] (6/7) | [x] | — | — |
-| QUEST | [x] | [x] | [x] | [x] | [x] | [x] (6/6) | [x] | — | — |
-| TIGRIS | [x] | [x] | [x] | [x] | [x] | [x] (6/6) | [x] | — | — |
-| ASPECT | [x] | [x] | [x] | [x] | [x] | n/a | n/a | — | — |
+| SIGNALS | [x] | [x] | n/a | [x] | [x] | n/a | n/a | 40 (v1.0) | Y |
+| PANEL | [x] | [x] | [x] | [x] | [x] | [x] (10/10) | [x] | 41 (v1.0) | Y |
+| LUCIA | [x] | [x] | [x] | [x] | [x] | n/a (md) | n/a | 48 (v1.0) | Y |
+| MAXIM | [x] | [x] | n/a | [x] | [x] | n/a | n/a | 36 (v1.0) | Y |
+| CERES | [x] | [x] | [x] | [x] | [x] | n/a | n/a | 40 (v1.0) | Y |
+| REDIST | [x] | [x] | n/a | [x] | [x] | [x] | [x] | 43 (v1.0) | Y |
+| HUNT | [x] | [x] | [x] | [x] | [x] | [~] (6/7) | [x] | 48 (v1.0) | Y |
+| QUEST | [x] | [x] | [x] | [x] | [x] | [x] (6/6) | [x] | 48 (v1.0) | Y |
+| TIGRIS | [x] | [x] | [x] | [x] | [x] | [x] (6/6) | [x] | 49 (v1.0) | Y |
+| ASPECT | [x] | [x] | [x] | [x] | [x] | n/a | n/a | 49 (v1.0) | Y |
 | giodl73-repo | [x] | [x] | n/a | [x] | [x] | n/a | n/a | 38 (v1.0) | n/a |
 
 > **README score** is per the 50-point rubric in
