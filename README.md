@@ -1,6 +1,10 @@
 # Gio Della-Libera
 
-VP of Engineering at Microsoft on **Agents 365**.
+Ten public projects, one researcher, one Claude instance — and a single methodology that keeps producing things I didn't plan to build.
+
+Each repo below applies the same loop to different subject matter: software decisions, narrative history, a peer-level reference library, congressional redistricting, board games, D&D, visualization, local-production economics. Same discipline, every time.
+
+Day job: VP of Engineering at Microsoft on **Agents 365**. Everything here is built outside that.
 
 ## AI-first development
 
@@ -114,7 +118,7 @@ Reviews happen via a panel of ten historical visualizers — Minard, Tufte, Nigh
 
 ---
 
-## Side project
+## Applied to civic infrastructure
 
 ### [REDIST](https://github.com/giodl73-repo/REDIST) — automated congressional redistricting
 

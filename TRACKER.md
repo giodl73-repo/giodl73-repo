@@ -38,7 +38,7 @@ Things every public repo should have before it's broadcast widely.
 | QUEST | [x] | [x] | [x] | [x] | [x] | [x] (6/6) | [x] | — | — |
 | TIGRIS | [x] | [x] | [x] | [x] | [x] | [x] (6/6) | [x] | — | — |
 | ASPECT | [x] | [x] | [x] | [x] | [x] | n/a | n/a | — | — |
-| giodl73-repo | [x] | [x] | n/a | [x] | [x] | n/a | n/a | — | n/a |
+| giodl73-repo | [x] | [x] | n/a | [x] | [x] | n/a | n/a | 38 (v1.0) | n/a |
 
 > **README score** is per the 50-point rubric in
 > [conventions.md](.claude/references/conventions.md#readme-rubric-50-points).
