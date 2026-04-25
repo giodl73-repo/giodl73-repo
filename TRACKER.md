@@ -37,7 +37,7 @@ Things every public repo should have before it's broadcast widely.
 | HUNT | [x] | [x] | [x] | [x] | [x] | [~] (6/7) | [x] |
 | QUEST | [x] | [x] | [x] | [x] | [x] | [x] (6/6) | [x] |
 | TIGRIS | [x] | [x] | [x] | [x] | [x] | [x] (6/6) | [x] |
-| ASPECT | [x] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| ASPECT | [x] | [x] | [x] | [x] | [x] | n/a | n/a |
 | giodl73-repo | [x] | [x] | n/a | [x] | [x] | n/a | n/a |
 
 ---
