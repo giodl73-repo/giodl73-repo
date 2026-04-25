@@ -36,74 +36,39 @@ For each step, report what was applied and what was skipped (already done).
 
 Report the inventory as a status block before making any changes.
 
+> Canonical text for LICENSE, gitignore block, banner, and email-rewrite
+> snippet lives in [`.claude/references/conventions.md`](../../references/conventions.md).
+> This skill applies those conventions; the conventions file is the source
+> of truth.
+
 ### 2. LICENSE file
 
-- If `LICENSE` is missing at repo root: write the standard MIT LICENSE
-  with `Copyright (c) 2026 Gio Della-Libera`.
-- If present: leave alone. Note its first line in the report.
+- If missing at repo root: write the MIT LICENSE from the conventions doc.
+- If present: leave alone, note its first line in the report.
 
 ### 3. README `## License` section
 
-- Search for `^## License` heading in `README.md`.
-- If missing: append `\n---\n\n## License\n\n[MIT](LICENSE) — © 2026 Gio Della-Libera.\n`.
-- If present: leave alone.
+- If `^## License` heading is missing in `README.md`, append the section
+  from the conventions doc.
 
 ### 4. `.gitignore` block
 
-- Append the standard local-state block (idempotent — check for marker
-  comment first):
-
-  ```
-  # Local/editor state (not public)
-  .claude/settings.local.json
-  .claude/scheduled_tasks.lock
-  .DS_Store
-  .vscode/
-  .idea/
-  *.swp
-  __pycache__/
-  *.pyc
-  .pytest_cache/
-  .venv/
-  venv/
-  .env
-  .env.local
-
-  # LaTeX build artifacts
-  *.aux
-  *.bbl
-  *.blg
-  *.fls
-  *.fdb_latexmk
-  *.log
-  *.out
-  *.synctex.gz
-  *.toc
-  ```
-
+- Append the standard `.gitignore` block from the conventions doc
+  (idempotent — check for the `# Local/editor state` marker first).
 - For any tracked file matching the new patterns, run `git rm --cached`.
 
 ### 5. Persona AI-simulation banner
 
-- Find persona files in `personas/`, `.roles/`, `toolkit/profiles/`,
-  `agents/` (top-level *.md files in those directories — skip
-  `_index.yaml`, `README.md`, etc.).
-- For each, check first 800 characters for the marker `AI simulation`.
-- If absent, prepend the banner block (after any YAML frontmatter):
-
-  ```
-  > **Note:** This is an AI simulation of the named person's published
-  > work and public intellectual positions, written by Claude for research
-  > and quality-improvement purposes. It is not a statement by the person
-  > and does not represent their views, endorsement, or participation.
-  ```
-
-- Report files modified vs skipped.
+- Scan the persona-file locations listed in the conventions doc.
+- For each file, prepend the persona banner from the conventions doc
+  (after any YAML frontmatter) if the marker `AI simulation` isn't already
+  in the first 800 characters.
+- For files in review-output locations, use the review banner instead.
 
 ### 6. Per-repo committer config
 
-- `git config user.email "giodl73@gmail.com"`
-- `git config user.name "Gio Della-Libera"`
+- `git config user.email "giodl73@gmail.com"` (per the conventions doc).
+- `git config user.name "Gio Della-Libera"`.
 
 ### 7. Pre-rewrite commit
 
@@ -114,15 +79,7 @@ Report the inventory as a status block before making any changes.
 
 - Stash any remaining uncommitted state (filter-branch refuses to run
   with a dirty tree).
-- Run:
-
-  ```
-  git filter-branch -f --env-filter '
-    if [ "$GIT_COMMITTER_EMAIL" = "giodl@microsoft.com" ]; then export GIT_COMMITTER_EMAIL="giodl73@gmail.com"; fi
-    if [ "$GIT_AUTHOR_EMAIL" = "giodl@microsoft.com" ]; then export GIT_AUTHOR_EMAIL="giodl73@gmail.com"; fi
-  ' --tag-name-filter cat -- --branches --tags
-  ```
-
+- Run the filter-branch snippet from the conventions doc.
 - Verify with `git log --format='%ce' | sort | uniq -c` that no
   `giodl@microsoft.com` remains.
 - Pop the stash if one was made.

@@ -25,6 +25,11 @@ deciding whether to apply the opinionated prep pass.
 
 - **Repo path** (defaults to cwd). Must be a git repo.
 
+> All "what passes" rules below come from
+> [`.claude/references/conventions.md`](../../references/conventions.md). This
+> skill checks against that file; if a convention changes, edit the
+> conventions doc — not this skill.
+
 ## Checks
 
 For each item, report `[x]` (pass), `[ ]` (fail / needs work), or `n/a`
