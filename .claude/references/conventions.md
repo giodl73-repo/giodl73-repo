@@ -188,6 +188,70 @@ git filter-branch -f --env-filter '
 
 ---
 
+## README rubric (50 points)
+
+Every public-repo README is scored per-section against ten axes, five
+points each. Five axes test **substance** (does the section say
+something), five test **style** (does it land).
+
+### Substance — does the section say something?
+
+| Axis | Question |
+|------|----------|
+| **Thesis** | Does it advance the AI-first / emergent-skills argument, not just describe the repo? |
+| **Headline** | Does it lead with a memorable claim, not a stat? Is there a line worth quoting? |
+| **Principle** | Does it surface a principle a reader can take elsewhere ("forward-only rubrics", "skills earn their place")? |
+| **Evidence** | Is there a concrete example/artifact/quote that grounds the abstract — not just numbers? |
+| **Stakes** | Does the reader leave with *why this matters* or *what they could do with it*? |
+
+### Style — does it land?
+
+| Axis | Question |
+|------|----------|
+| **Hook** | Draws a thoughtful outsider in within 30 seconds without front-loading numbers |
+| **Voice** | Friendly + confident, not academic-cold |
+| **Density** | High info per word without being a wall of stats |
+| **Clarity** | Domain newcomer can follow without a glossary |
+| **Truth** | Accurate; no overclaim, no underclaim |
+
+### Bands (per section)
+
+| Band | Total | Action |
+|------|------:|--------|
+| Strong | 45–50 | Keep |
+| OK | 38–44 | Small revision |
+| Weak | 30–37 | Significant rewrite |
+| Cut | < 30 | Section should probably be cut or redesigned |
+
+### Repo aggregate
+
+A repo's README score is the **mean of its section scores**, rounded to
+the nearest integer. Recorded in `TRACKER.md` in the **README score**
+column.
+
+The rubric is expected to evolve — section scores recorded against an
+older rubric version stay frozen until the next rescore. Note the rubric
+version (e.g. `v1.0`, `v1.1`) in TRACKER alongside each score.
+
+---
+
+## README alignment with front-door
+
+Each public repo's README must be coherent with `giodl73-repo/README.md`:
+
+- **Faithful upward**: every claim/principle/headline that the front-door
+  README makes about a repo must be backed by something in that repo's
+  own README.
+- **Faithful downward**: every distinctive principle or signature claim
+  in a repo's README should have at least a one-line representation in
+  the front-door README's stanza for that repo.
+
+Tracked in `TRACKER.md` as the **Aligned** column (Y/N), with a short
+gap note when N. The `/readme-score` skill performs the check whenever
+the target isn't the front-door repo itself.
+
+---
+
 ## TRACKER columns
 
 Each public repo gets a row in `TRACKER.md` with these columns:

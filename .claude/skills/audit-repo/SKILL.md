@@ -77,6 +77,20 @@ For each item, report `[x]` (pass), `[ ]` (fail / needs work), or `n/a`
 - Report: `[x]` if all such links target `…/main.pdf` (not the source dir);
   `[ ]` if any point at the source dir; `n/a` if no research links.
 
+### 9. README score (recorded)
+
+- Read the recorded score from `giodl73-repo/TRACKER.md` for this repo.
+- Report the score and band (Strong / OK / Weak / Cut) per the rubric in
+  conventions.md.
+- If no score is recorded yet, report `not yet scored — run /readme-score`.
+
+### 10. README aligned with front-door
+
+- Read the recorded `Aligned` column from `TRACKER.md`.
+- Report `Y` / `N` / `n/a` (front-door itself).
+- For a fresh alignment check, the user runs `/readme-score` against
+  the target repo (which performs alignment as part of its run).
+
 ## Output format
 
 A status block, suitable for pasting into `TRACKER.md`:

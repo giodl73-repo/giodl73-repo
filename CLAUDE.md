@@ -16,10 +16,14 @@ portfolio of personal-account repos.
   public repo (writes changes).
 - **`.claude/skills/audit-repo/`** — read-only sibling; reports a repo's
   status against the TRACKER columns without making changes.
+- **`.claude/skills/readme-score/`** — scores any repo's README per-section
+  against the 50-point rubric and (when applicable) checks alignment with
+  the front-door narrative. Read-only.
 - **`.claude/references/conventions.md`** — single source of truth for
   the canonical LICENSE text, `.gitignore` block, persona disclaimer
-  banner, history-rewrite snippet, and TRACKER column definitions. Both
-  skills defer to this file. Update conventions there, not in skill files.
+  banner, history-rewrite snippet, README rubric, alignment principles,
+  and TRACKER column definitions. All skills defer to this file. Update
+  conventions there, not in skill files.
 
 ## Portfolio at a glance
 
