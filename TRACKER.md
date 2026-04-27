@@ -8,6 +8,7 @@ Status board for the 10 public repos in `giodl73-repo`. Updated as work happens.
 
 | Repo | What it is | Default branch | Research papers | proof status |
 |------|------------|---------------:|----------------:|-------------|
+| [ICELINES](https://github.com/giodl73-repo/ICELINES) | NHL analytics + fantasy platform (Rust CLI) | `master` | — | — |
 | [SIGNALS](https://github.com/giodl73-repo/SIGNALS) | feature decision intelligence | `main` | — | — |
 | [PANEL](https://github.com/giodl73-repo/PANEL) | AI-simulated expert review | `main` | 10 (LaTeX) | — |
 | [LUCIA](https://github.com/giodl73-repo/LUCIA) | human chronicle | `master` | 9 (markdown) | ✅ 0 errors (2,823 files) |
@@ -28,6 +29,7 @@ Things every public repo should have before it's broadcast widely.
 
 |  | LICENSE | README ## License | AI-sim disclaimers on personas | Internal naming scrubbed | Local state files gitignored | Research PDFs built | README links to PDFs | README score (/50) | Aligned |
 |---|---|---|---|---|---|---|---|---:|---|
+| ICELINES | [x] | [x] | n/a | [x] | [x] | n/a | n/a | — | Y |
 | SIGNALS | [x] | [x] | n/a | [x] | [x] | n/a | n/a | 44 (v1.1) | Y |
 | PANEL | [x] | [x] | [x] | [x] | [x] | [x] (10/10) | [x] | 44 (v1.1) | Y |
 | LUCIA | [x] | [x] | [x] | [x] | [x] | n/a (md) | n/a | 48 (v1.0) | Y |
