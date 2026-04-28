@@ -1,8 +1,8 @@
 # Gio Della-Libera
 
-Ten public projects, one researcher, one Claude instance — and a single methodology that keeps producing things I didn't plan to build.
+Fifteen public projects, one researcher, one Claude instance — and a single methodology that keeps producing things I didn't plan to build.
 
-Each repo below applies the same loop to different subject matter: software decisions, narrative history, a peer-level reference library, congressional redistricting, board games, D&D, visualization, local-production economics. Same discipline, every time.
+Each repo below applies the same loop to different subject matter: software decisions, narrative history, a peer-level reference library, board games, D&D, visualization, writing, music, local-production economics, congressional redistricting, NHL analytics, and the markdown infrastructure that holds the rest of it together. Same discipline, every time.
 
 Day job: VP of Engineering at Microsoft on **Agents 365**. Everything here is built outside that.
 
@@ -26,9 +26,9 @@ The **Rework row is the punchline.** You get *better* code because research, sim
 
 ---
 
-## The engines
+## AI Tools
 
-Two projects are the core of how I do AI-first development. Everything else is this same pattern, applied to something that isn't code.
+Four projects are the infrastructure the rest of the portfolio runs on. Two are **methodology tools** — SIGNALS turns feature decisions into a dated artifact trail; PANEL puts academic-grade peer review on the same desk. Two are **artifact tools** — PROOF compiles and validates markdown the way LaTeX compiles documents; MDPATH gives every figure and table a stable address that survives line-number changes. They have the shape of tools because that is what they are: things AI calls when the work in the other repos demands rigor.
 
 ### [SIGNALS](https://github.com/giodl73-repo/SIGNALS) — feature decision intelligence
 
@@ -41,6 +41,18 @@ The technique catalog behind it is ~1,060 scenarios and ~700 findings across 12 
 **Not peer review — a quality-improvement simulation that you run *before* the real reviewers see it.** Pre-write discovery (hypothesis, competitors, causal, websearch, coherence, synthesize) and post-write validation (consistency, dimensional, contract, referee) keep the research honest at every stage.
 
 The architecture is three tiers — **paper, module, board** — staffed by **45 persona-based reviewers** across 10 categories. Every paper is scored against a **25-point CEMCK rubric** (Claim, Evidence, Method, Contribution, Craft). This is how ideas coming out of SIGNALS get empirical evidence before they leave the house.
+
+### [PROOF](https://github.com/giodl73-repo/PROOF) — markdown, but with a compiler
+
+**Source markdown is source code; compiled markdown is the artifact; DaVinci invariants are types.** PROOF is a Rust CLI that does for markdown what LaTeX does for documents: validates structure (ASCII art geometry, GFM table schemas, link integrity, heading order, wide-character alignment), generates structured ASCII art — figures (including PNG/JPG/SVG → ASCII via braille / quarter-block / dither modes), trees, charts (bar, scatter, heatmap, sankey, gantt, sparkline, fifteen kinds in all), dashboards (fixed-width canvas compositors), slides (flow-layout ASCII presentation decks), symbols, math — and compiles `.source.md` files into rendered `.md` artifacts via `proof:include` and `proof:layout` directives that resolve `md://` URIs.
+
+The fix pipeline is `check → draft → fix`: the linter writes a structured plan, an AI fills in `decision` and `new_string` for ambiguous cases with reasoning attached, the applier enforces signal-loss checks, confidence gates, and stale-anchor detection before writing anything. **DaVinci pinning** registers a figure with invariants (box-count, contains-text, line-count) that must hold across every future build — diagrams can't drift silently.
+
+### [MDPATH](https://github.com/giodl73-repo/MDPATH) — the `md://` URI standard
+
+**Every important element in a markdown file gets a stable address that survives line-number changes.** Instead of "the box on line 47," you write `md://languages/10-GO.md#concurrency-model:figure.flowchart:goroutine-scheduler`. The URI resolves to the same element after the file grows or shrinks around it — heading slugs are normalized, named selectors take precedence over numeric indices, ambiguous matches return errors instead of guessing. OData-style filters and projections are supported (`?select=Axis,Value&filter=Axis eq Binding`).
+
+Standalone Rust library with no `proof` dependency — any tool (editor, CI pipeline, agent) can implement a resolver against the same spec. PROOF is the reference implementation; 56+ tests cover URI parsing, section navigation, element detection, label matching, sub-selectors, and round-trip stability.
 
 ---
 
@@ -86,7 +98,7 @@ Reviews happen via **Parliament**: eight designer personas (Knizia, Rosenberg, F
 
 ## The pattern, applied to long-form content
 
-Four projects point the same loop at subject matter that isn't a game and isn't software. The subject changes — human civilization, peer-level reference, local-production economics, visualization design — and the loop doesn't. Every chapter, guide, playbook, or scorecard has to pass a panel before it ships.
+Three projects point the same loop at subject matter that isn't a game and isn't software. The subject changes — human civilization, peer-level reference, local-production economics — and the loop doesn't. Every chapter, guide, or playbook has to pass a panel before it ships.
 
 ### [LUCIA](https://github.com/giodl73-repo/LUCIA) — the human chronicle
 
@@ -106,15 +118,35 @@ A narrative encyclopedia of human civilization — **26 regions, ~260 peoples, 1
 
 A catalog-driven design and evaluation project for modern artisan-production equipment — forges, ovens, looms, kilns. Each variant runs through a **9-cell matrix** (three settlement scales × three economic lenses — market, cooperative, civic) with a layered simulation stack (deterministic comparator → system dynamics → agent-based). **Six panel voices** create productive friction (Market Economist, Commons Theorist, Civic Steward, Craft Practitioner, Historian, Skeptical Funder); **three editorial gates** — Citation Auditor, Scope Keeper, Numeracy Checker — stand between `reviewed` and `validated`.
 
-### [ASPECT](https://github.com/giodl73-repo/ASPECT) — visualization evaluation framework
+---
+
+## The design labs — same engine, three mediums
+
+Three projects point the panel-and-rubric machinery at artistic mediums instead of corpora. Same disagreement-by-design, same forward-only rubric evolution, same innovation-to-amendment loop — pointed at images, text, and music. The dimensions differ (six in one, five in the others); the engine underneath is identical. Each lab is a scoring engine first; corpora accumulate as a side effect of running the rubric on real work.
+
+### [ASPECT](https://github.com/giodl73-repo/ASPECT) — the visualization design lab
 
 **The rubric evolved by use, not by design — v3.0 through 300 innovations and 21 amendment clusters.** ASPECT scores visualization work across six dimensions — **A**im, **S**chool, **P**recision, **E**ffect, **C**larity, **T**ruth — 100 points across the lot, but every school in the corpus (statistical graphics, cartography, ISOTYPE, narrative visualization, data art, advocacy visualization, fourteen in all) gets held to its own grammar. A piece of advocacy is not judged against the rules of statistical graphics.
 
 Reviews happen via a panel of ten historical visualizers (Minard, Tufte, Nightingale, Playfair, Bertin, Neurath, Beck, Kandinsky, Du Bois, Rosling) who disagree by design. **55 works scored**, ranging from 57.1 (WWI propaganda — Advisory) to 93.6 (the Pythagorean Chu-pei proof). Six Advisory scores all confirmed advocacy-as-coercion: WWI propaganda, tobacco physician endorsements, Soviet Five-Year Plan statistics, pharmaceutical subgroup cherry-picking, partisan gerrymandering, climate-denial baseline manipulation.
 
+### [PROSE](https://github.com/giodl73-repo/PROSE) — the writing design lab
+
+**Purpose serves the form; form serves the reader.** PROSE evaluates writing across **P**urpose / **R**eader / **O**rganization / **S**tyle / **E**conomy — 100 points, reviewed by a panel of ten historical writer voices selected because they disagree about the things that matter most. Orwell on plain language as moral commitment. Hemingway on the iceberg theory. Didion on the first person as an instrument of precision. Baldwin on telling the truth that isn't comfortable. Feynman on explaining simply as a test of understanding. DFW on writing as a gift to the reader.
+
+Same engine as ASPECT, pointed at text instead of images. Forms (literary essay, journalism, technical writing, short story, lyric essay, science writing) each carry their own grammar; no form is treated as simpler than another.
+
+### [SCORE](https://github.com/giodl73-repo/SCORE) — the music design lab
+
+**Every note earns its place.** SCORE evaluates compositions across **S**tructure / **C**raft / **O**riginality / **R**esonance / **E**conomy — 100 points, reviewed by ten historical composers and musician-critics chosen because they disagree about everything that matters. Bach on counterpoint as moral geometry. Coltrane on technique clearing the way for the search. Miles Davis on what you don't play being what you play. Pärt on silence as music's most expressive element. Sondheim on finding the one thing that does everything. Ellington on writing for Cootie Williams, not "the trumpet section."
+
+Sibling to ASPECT (visualization) and PROSE (writing). Traditions — fugue, jazz standard, blues, song cycle, minimalism, raga, art song — each carry their own exacting standards and their own ways of failing.
+
 ---
 
-## Applied to civic infrastructure
+## Side projects
+
+Two projects that don't fit the corpus-or-engine pattern above — they answer specific questions instead of producing a system. Same AI-first discipline, narrower scope.
 
 ### [REDIST](https://github.com/giodl73-repo/REDIST) — automated congressional redistricting
 
@@ -126,11 +158,17 @@ A separate track extends the base method for **Voting Rights Act compliance**, a
 
 Around all of it sits the same AI-first tooling as the rest: **20 research papers across five tracks** (Synthesis, Algorithm, Validation, VRA compliance, Experimental Extensions), an interactive 50-state dashboard, a 215-test suite, and a LaTeX pipeline that compiles papers, presentations, and guides directly from the run outputs. Different subject matter; same discipline.
 
+### [ICELINES](https://github.com/giodl73-repo/ICELINES) — NHL analytics platform
+
+**Five seasons bundled in the binary; thirty-eight available on demand — back to Gretzky's 1987-88 trade to LA.** ICELINES is a Rust CLI that does pace-adjusted player rankings, cross-team depth fit (★ Elite / ~ Solid / ↑ Buried / ↓ Stretch — how a player would slot on each of the other 31 rosters), 30+ sortable metrics with filters that combine on AND logic, fantasy league management with simulated trades and a web dashboard, and historical comps via similarity search. Data sources: free NHL public API plus MoneyPuck CSVs for xG/CF%/FF%/xGF%; the bundled binary works zero-config.
+
+The architecture is a **4-crate Rust workspace** (`icelines-core` / `-fetch` / `-site` / `-cli`) with a **338-test pyramid** (L0 unit, L1 integration, L2 system, mock NHL API fixture). Different subject matter; same discipline.
+
 ---
 
 ## The shape of the loop
 
-Every project above runs the same loop, only the artifacts change. Skills produce dated evidence — a paper, a hunt scenario, a chapter, a scorecard. Evidence surfaces patterns. Patterns become new skills. Rubrics evolve forward-only — old work judged by the old bar, new work meets the new one. Personas (real designers, real historians, real visualizers) review every artifact before it ships, and they disagree by design.
+Every project above runs the same loop, only the artifacts change. Skills produce dated evidence — a paper, a hunt scenario, a chapter, a scorecard, a composition spec, a depth chart. Evidence surfaces patterns. Patterns become new skills. Rubrics evolve forward-only — old work judged by the old bar, new work meets the new one. Personas (real designers, real historians, real visualizers, real writers, real composers) review every artifact before it ships, and they disagree by design.
 
 The result is the same shape across very different subject matter: a corpus that didn't exist a year ago, scored against a rubric that wasn't fixed when scoring started, with the rubric and the corpus co-evolving until the system is sharper than what kicked it off.
 

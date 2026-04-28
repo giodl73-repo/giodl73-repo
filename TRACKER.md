@@ -1,6 +1,6 @@
 # TRACKER — public repos
 
-Status board for the 10 public repos in `giodl73-repo`. Updated as work happens.
+Status board for the 15 public repos in `giodl73-repo`. Updated as work happens.
 
 ---
 
@@ -8,7 +8,6 @@ Status board for the 10 public repos in `giodl73-repo`. Updated as work happens.
 
 | Repo | What it is | Default branch | Research papers | proof status |
 |------|------------|---------------:|----------------:|-------------|
-| [ICELINES](https://github.com/giodl73-repo/ICELINES) | NHL analytics + fantasy platform (Rust CLI) | `master` | — | — |
 | [SIGNALS](https://github.com/giodl73-repo/SIGNALS) | feature decision intelligence | `main` | — | — |
 | [PANEL](https://github.com/giodl73-repo/PANEL) | AI-simulated expert review | `main` | 10 (LaTeX) | — |
 | [LUCIA](https://github.com/giodl73-repo/LUCIA) | human chronicle | `master` | 9 (markdown) | ✅ 0 errors (2,823 files) |
@@ -18,7 +17,12 @@ Status board for the 10 public repos in `giodl73-repo`. Updated as work happens.
 | [HUNT](https://github.com/giodl73-repo/HUNT) | puzzle hunt pipeline | `master` | 7 (LaTeX) | — |
 | [QUEST](https://github.com/giodl73-repo/QUEST) | D&D workshop | `main` | 6 (LaTeX) | — |
 | [TIGRIS](https://github.com/giodl73-repo/TIGRIS) | board game factory | `main` | 6 (LaTeX) | — |
-| [ASPECT](https://github.com/giodl73-repo/ASPECT) | visualization evaluation framework | `main` | — | — |
+| [ASPECT](https://github.com/giodl73-repo/ASPECT) | visualization design lab | `main` | — | — |
+| [PROSE](https://github.com/giodl73-repo/PROSE) | writing design lab | `main` | — | — |
+| [SCORE](https://github.com/giodl73-repo/SCORE) | music design lab | `main` | — | — |
+| [PROOF](https://github.com/giodl73-repo/PROOF) | markdown compiler + linter (Rust) | `master` | — | — |
+| [MDPATH](https://github.com/giodl73-repo/MDPATH) | `md://` URI library (Rust) | `master` | — | — |
+| [ICELINES](https://github.com/giodl73-repo/ICELINES) | NHL analytics + fantasy platform (Rust CLI) | `master` | — | — |
 | [giodl73-repo](https://github.com/giodl73-repo/giodl73-repo) | profile / front door | `main` | — | — |
 
 ---
@@ -29,7 +33,6 @@ Things every public repo should have before it's broadcast widely.
 
 |  | LICENSE | README ## License | AI-sim disclaimers on personas | Internal naming scrubbed | Local state files gitignored | Research PDFs built | README links to PDFs | README score (/50) | Aligned |
 |---|---|---|---|---|---|---|---|---:|---|
-| ICELINES | [x] | [x] | n/a | [x] | [x] | n/a | n/a | — | Y |
 | SIGNALS | [x] | [x] | n/a | [x] | [x] | n/a | n/a | 44 (v1.1) | Y |
 | PANEL | [x] | [x] | [x] | [x] | [x] | [x] (10/10) | [x] | 44 (v1.1) | Y |
 | LUCIA | [x] | [x] | [x] | [x] | [x] | n/a (md) | n/a | 48 (v1.0) | Y |
@@ -40,6 +43,11 @@ Things every public repo should have before it's broadcast widely.
 | QUEST | [x] | [x] | [x] | [x] | [x] | [x] (6/6) | [x] | 48 (v1.0) | Y |
 | TIGRIS | [x] | [x] | [x] | [x] | [x] | [x] (6/6) | [x] | 49 (v1.0) | Y |
 | ASPECT | [x] | [x] | [x] | [x] | [x] | n/a | n/a | 49 (v1.0) | Y |
+| PROSE | [x] | [x] | [x] | [x] | [x] | n/a | n/a | 33 (v1.1) | Y |
+| SCORE | [x] | [x] | [x] | [x] | [x] | n/a | n/a | 34 (v1.1) | Y |
+| PROOF | [x] | [x] | n/a | [x] | [~] | n/a | n/a | 37 (v1.1) | Y |
+| MDPATH | [x] | [x] | n/a | [x] | [~] | n/a | n/a | 32 (v1.1) | Y |
+| ICELINES | [x] | [x] | n/a | [x] | [x] | n/a | n/a | 35 (v1.1) | Y |
 | giodl73-repo | [x] | [x] | n/a | [x] | [x] | n/a | n/a | 38 (v1.0) | n/a |
 
 > **README score** is per the 50-point rubric in
