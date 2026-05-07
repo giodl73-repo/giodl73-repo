@@ -1,6 +1,6 @@
 # TRACKER — public repos
 
-Status board for the 15 public repos in `giodl73-repo`. Updated as work happens.
+Status board for the 16 public repos in `giodl73-repo`. Updated as work happens.
 
 ---
 
@@ -24,6 +24,7 @@ Status board for the 15 public repos in `giodl73-repo`. Updated as work happens.
 | [MDPATH](https://github.com/giodl73-repo/MDPATH) | `md://` URI library (Rust) | `master` | — | — |
 | [ICELINES](https://github.com/giodl73-repo/ICELINES) | NHL analytics + fantasy platform (Rust CLI) | `master` | — | — |
 | [ROUTE](https://github.com/giodl73-repo/ROUTE) | Interstate 2.0 — highway corridor analysis + design (Rust CLI) | `master` | — | — |
+| [METIS-CORE](https://github.com/giodl73-repo/METIS-CORE) | pure Rust multilevel graph partitioning | `master` | — | — |
 | [giodl73-repo](https://github.com/giodl73-repo/giodl73-repo) | profile / front door | `main` | — | — |
 
 ---
@@ -50,6 +51,7 @@ Things every public repo should have before it's broadcast widely.
 | MDPATH | [x] | [x] | n/a | [x] | [~] | n/a | n/a | 32 (v1.1) | Y |
 | ICELINES | [x] | [x] | n/a | [x] | [x] | n/a | n/a | 35 (v1.1) | Y |
 | ROUTE | [x] | [x] | [x] | [x] | [x] | n/a | n/a | — | — |
+| METIS-CORE | [x] | [x] | n/a | [x] | [x] | n/a | n/a | — | — |
 | giodl73-repo | [x] | [x] | n/a | [x] | [x] | n/a | n/a | 38 (v1.0) | n/a |
 
 > **README score** is per the 50-point rubric in
