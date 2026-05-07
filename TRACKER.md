@@ -23,7 +23,7 @@ Status board for the 16 public repos in `giodl73-repo`. Updated as work happens.
 | [PROOF](https://github.com/giodl73-repo/PROOF) | markdown compiler + linter (Rust) | `master` | — | — |
 | [MDPATH](https://github.com/giodl73-repo/MDPATH) | `md://` URI library (Rust) | `master` | — | — |
 | [ICELINES](https://github.com/giodl73-repo/ICELINES) | NHL analytics + fantasy platform (Rust CLI) | `master` | — | — |
-| [ROUTE](https://github.com/giodl73-repo/ROUTE) | Interstate 2.0 — highway corridor analysis + design (Rust CLI) | `master` | — | — |
+| [ROUTE](https://github.com/giodl73-repo/ROUTE) | Interstate 2.0 — highway corridor analysis + design (Rust CLI) | `master` | 3 active (LaTeX) | — |
 | [METIS-CORE](https://github.com/giodl73-repo/METIS-CORE) | pure Rust multilevel graph partitioning | `master` | — | — |
 | [giodl73-repo](https://github.com/giodl73-repo/giodl73-repo) | profile / front door | `main` | — | — |
 
@@ -50,7 +50,7 @@ Things every public repo should have before it's broadcast widely.
 | PROOF | [x] | [x] | n/a | [x] | [~] | n/a | n/a | 37 (v1.1) | Y |
 | MDPATH | [x] | [x] | n/a | [x] | [~] | n/a | n/a | 32 (v1.1) | Y |
 | ICELINES | [x] | [x] | n/a | [x] | [x] | n/a | n/a | 35 (v1.1) | Y |
-| ROUTE | [x] | [x] | [x] | [x] | [x] | n/a | n/a | — | — |
+| ROUTE | [x] | [x] | [x] | [x] | [x] | [ ] (3/13 in progress) | [ ] | — | — |
 | METIS-CORE | [x] | [x] | n/a | [x] | [x] | n/a | n/a | — | — |
 | giodl73-repo | [x] | [x] | n/a | [x] | [x] | n/a | n/a | 38 (v1.0) | n/a |
 
