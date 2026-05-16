@@ -14,3 +14,7 @@ These repos define public agreements: how to name a document location, how to
 place review roles in a repo, and how tools can recognize those conventions.
 They may include code or validators, but their durable value is the protocol
 that lets many repositories interoperate.
+
+Boundary rule: a repo belongs here when the convention or identifier is the
+main artifact. A repo with protocols inside it can still belong in Tools &
+Infrastructure when its primary public surface is executable shared code.

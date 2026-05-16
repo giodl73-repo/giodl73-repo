@@ -19,3 +19,7 @@ compilation, context selection, data acquisition, kernels, and partitioning.
 Election, route, sports, corpus, and agent systems can all use them without
 inheriting each other's product logic.
 
+RLINE stays here rather than Standards & Protocols because its primary artifact
+is a shared Rust kernel workspace. Its manifests and contracts support that
+workspace; they are not the repo's standalone public convention.
+
