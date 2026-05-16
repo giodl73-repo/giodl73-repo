@@ -13,6 +13,6 @@ evidence-heavy style against concrete public systems.
 These are applied systems: data-heavy, simulation-friendly, and grounded in
 real-world infrastructure. They also show why the infrastructure series exists:
 ICELINES, ROUTE, and BISECT have each had to solve fetching, caching, profiling,
-and graph analysis locally. FLETCH is the eventual shared fetch/cache layer for
-that repeated need; RLINE and METIS-CORE are the shared graph/kernel layer.
+and graph analysis locally. FLETCH is now the shared fetch/cache layer for those
+three clients; RLINE and METIS-CORE are the shared graph/kernel layer.
 

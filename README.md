@@ -50,7 +50,8 @@ The repos are not isolated experiments. They form layers:
   design.
 - **Infrastructure** repos make those artifacts reproducible: stable markdown
   addresses, repo-local review panels, corpus compilers, context packs,
-  fetch/cache manifests, graph kernels, plan packages, and audit ledgers.
+  finished shared fetch/cache substrate for ROUTE, BISECT, and ICELINES, graph
+  kernels, plan packages, and audit ledgers.
 
 That is the through-line: build the artifact, build the evaluator, then promote
 the reusable Rust substrate when more than one system needs it.

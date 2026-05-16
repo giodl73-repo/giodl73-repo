@@ -8,7 +8,7 @@ partitioning.
 |------|------|
 | [PROOF](https://github.com/giodl73-repo/PROOF) | Markdown compiler and checker for terminal-first documents, dashboards, math, and diagrams. |
 | [CROP](https://github.com/giodl73-repo/CROP) | Graph-cut context cropping and corpus status for AI agents and documentation systems. |
-| [FLETCH](https://github.com/giodl73-repo/FLETCH) | Shared fetch/cache/bundle substrate for reproducible data acquisition; intended for eventual onboarding by ICELINES, ROUTE, BISECT, and other data-heavy systems. |
+| [FLETCH](https://github.com/giodl73-repo/FLETCH) | Finished shared fetch/cache/bundle substrate for reproducible data acquisition, now adopted by ROUTE, BISECT, and ICELINES. |
 | [RLINE](https://github.com/giodl73-repo/RLINE) | Shared Rust graph, context, statistics, math, optimization, and history kernels. |
 | [METIS-CORE](https://github.com/giodl73-repo/METIS-CORE) | Pure Rust multilevel graph partitioning engine. |
 
