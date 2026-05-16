@@ -1,13 +1,12 @@
 # Tools & Infrastructure Series
 
 This series contains reusable Rust tools that other systems can adopt: markdown
-compilation, stable corpus addresses, graph-cut context, fetch/cache manifests,
-shared kernels, and graph partitioning.
+compilation, graph-cut context, fetch/cache manifests, shared kernels, and graph
+partitioning.
 
 | Repo | Role |
 |------|------|
 | [PROOF](https://github.com/giodl73-repo/PROOF) | Markdown compiler and checker for terminal-first documents, dashboards, math, and diagrams. |
-| [MDPATH](https://github.com/giodl73-repo/MDPATH) | Stable `md://` URI library for addressing headings, figures, tables, and diagrams in markdown corpora. |
 | [CROP](https://github.com/giodl73-repo/CROP) | Graph-cut context cropping and corpus status for AI agents and documentation systems. |
 | [FLETCH](https://github.com/giodl73-repo/FLETCH) | Shared fetch/cache/bundle substrate for reproducible data acquisition; intended for eventual onboarding by ICELINES, ROUTE, BISECT, and other data-heavy systems. |
 | [RLINE](https://github.com/giodl73-repo/RLINE) | Shared Rust graph, context, statistics, math, optimization, and history kernels. |
@@ -16,7 +15,7 @@ shared kernels, and graph partitioning.
 ## Why these belong together
 
 These repos are not one product's private internals. They are system components:
-stable addressing, compilation, context selection, data acquisition, kernels, and
-partitioning. Election, route, sports, corpus, and agent systems can all use
-them without inheriting each other's product logic.
+compilation, context selection, data acquisition, kernels, and partitioning.
+Election, route, sports, corpus, and agent systems can all use them without
+inheriting each other's product logic.
 

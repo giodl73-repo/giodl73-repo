@@ -12,6 +12,7 @@ engines.
 | Knowledge Systems | [knowledge-systems.md](knowledge-systems.md) |
 | Design Labs | [design-labs.md](design-labs.md) |
 | Election Systems | [election-systems.md](election-systems.md) |
+| Standards & Protocols | [standards-protocols.md](standards-protocols.md) |
 | Tools & Infrastructure | [tools-infrastructure.md](tools-infrastructure.md) |
 | Applied Systems | [applied-systems.md](applied-systems.md) |
 

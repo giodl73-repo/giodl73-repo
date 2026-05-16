@@ -34,6 +34,7 @@ The series below are the public map.
 | Knowledge Systems | civilization, reference, and local-production corpora | [series/knowledge-systems.md](series/knowledge-systems.md) |
 | Design Labs | visualization, writing, and music scoring labs | [series/design-labs.md](series/design-labs.md) |
 | Election Systems | redistricting, district plans, count evidence, and audit packages | [series/election-systems.md](series/election-systems.md) |
+| Standards & Protocols | portable conventions, identifiers, and review-panel specs | [series/standards-protocols.md](series/standards-protocols.md) |
 | Tools & Infrastructure | markdown, context, fetch/cache, graph kernels, and partitioning engines | [series/tools-infrastructure.md](series/tools-infrastructure.md) |
 | Applied Systems | sports analytics and infrastructure-design workbenches | [series/applied-systems.md](series/applied-systems.md) |
 
@@ -45,8 +46,8 @@ The repos are not isolated experiments. They form layers:
 - **Artifact** repos produce serious work in games, knowledge, civic systems, and
   design.
 - **Infrastructure** repos make those artifacts reproducible: stable markdown
-  addresses, corpus compilers, context packs, fetch/cache manifests, graph
-  kernels, plan packages, and audit ledgers.
+  addresses, repo-local review panels, corpus compilers, context packs,
+  fetch/cache manifests, graph kernels, plan packages, and audit ledgers.
 
 That is the through-line: build the artifact, build the evaluator, then promote
 the reusable Rust substrate when more than one system needs it.
