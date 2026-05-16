@@ -46,6 +46,7 @@ each cloned working tree's `.git/config`; don't hardcode paths.
 | SCORE | music design lab |
 | PROOF | markdown compiler + linter (Rust) |
 | MDPATH | `md://` URI library (Rust) |
+| PEBBLE | compact `pebble.v1` context transfer schema (Rust) |
 | ICELINES | NHL analytics platform (Rust) |
 | giodl73-repo | this profile repo |
 
