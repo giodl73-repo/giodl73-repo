@@ -6,6 +6,9 @@ implementation through-line is Rust: even when the artifact is a paper, corpus,
 game, or design lab, the durable machinery tends to become a Rust CLI, library,
 or verifier.
 
+Public repos in this portfolio use [ROLES](https://github.com/giodl73-repo/ROLES),
+the `.roles` convention for repository-local review panels.
+
 Day job: VP of Engineering at Microsoft on **Agents 365**. Everything here is
 built outside that.
 
