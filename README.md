@@ -33,7 +33,7 @@ The series below are the public map.
 | Series | What it contains | Start here |
 |--------|------------------|------------|
 | AI Methodology | decision intelligence and simulated expert review | [series/ai-methodology.md](series/ai-methodology.md) |
-| Games Design | puzzle hunts, D&D adventures, and board-game design | [series/games-design.md](series/games-design.md) |
+| Games Design | puzzle hunts, D&D, board games, escape rooms, and world-building simulators — with shared simulation and UX infrastructure | [series/games-design.md](series/games-design.md) |
 | Knowledge Systems | civilization, reference, and local-production corpora | [series/knowledge-systems.md](series/knowledge-systems.md) |
 | Design Labs | visualization, writing, and music scoring labs | [series/design-labs.md](series/design-labs.md) |
 | Election Systems | redistricting, district plans, count evidence, and audit packages | [series/election-systems.md](series/election-systems.md) |
@@ -51,7 +51,8 @@ The repos are not isolated experiments. They form layers:
 - **Infrastructure** repos make those artifacts reproducible: stable markdown
    addresses, compact context-transfer formats, repo-local review panels, corpus compilers, context packs,
   finished shared fetch/cache substrate for ROUTE, BISECT, and ICELINES, graph
-  kernels, plan packages, and audit ledgers.
+  kernels, plan packages, audit ledgers, and shared game simulation and UX engines
+  (MUDDLE, RALLY, COURT, RACKET).
 
 That is the through-line: build the artifact, build the evaluator, then promote
 the reusable Rust substrate when more than one system needs it.
