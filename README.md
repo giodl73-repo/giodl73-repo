@@ -38,17 +38,22 @@ The series below are the public map.
 | Design Labs | visualization, writing, and music scoring labs | [series/design-labs.md](series/design-labs.md) |
 | Election Systems | redistricting, district plans, count evidence, and audit packages | [series/election-systems.md](series/election-systems.md) |
 | Standards & Protocols | portable conventions, identifiers, context-transfer formats, and review-panel specs | [series/standards-protocols.md](series/standards-protocols.md) |
-| Tools & Infrastructure | markdown, context, fetch/cache, graph kernels, and partitioning engines | [series/tools-infrastructure.md](series/tools-infrastructure.md) |
+| Tools & Infrastructure | markdown, context selection and algebra, harness replay, fetch/cache, graph kernels, and partitioning | [series/tools-infrastructure.md](series/tools-infrastructure.md) |
 | Applied Systems | sports analytics and infrastructure-design workbenches | [series/applied-systems.md](series/applied-systems.md) |
 
 ## Start with
+
+These four repos show the portfolio's artifact-to-context through-line: ROUTE
+produces evidence-heavy work; CROP selects relevant source context; LATTICE
+closes and explains that context; FLETCHER records and replays how an AI harness
+used it.
 
 | Repo | What it demonstrates |
 |------|----------------------|
 | [CROP](https://github.com/giodl73-repo/CROP) | Graph-cut context selection and provenance-aware corpus tooling. |
 | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Deterministic context closure, meet/join, budgets, frontiers, and receipts. |
 | [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Replayable AI harness events, checkpoints, and LATTICE handoffs. |
-| [ROUTE](https://github.com/giodl73-repo/ROUTE) | Evidence-gated Interstate 2.0 research, simulation, and design. |
+| [ROUTE](https://github.com/giodl73-repo/ROUTE) | Evidence-gated Interstate 2.0 research, simulation, maps, and design. |
 
 ## How to read the portfolio
 
@@ -58,16 +63,16 @@ The repos are not isolated experiments. They form layers:
 - **Artifact** repos produce serious work in games, knowledge, civic systems, and
   design.
 - **Infrastructure** repos make those artifacts reproducible: stable markdown
-   addresses, compact context-transfer formats, repo-local review panels, corpus
-   compilers, context packs, context algebra, replayable harness events, finished
-   shared fetch/cache substrate for ROUTE, BISECT, and ICELINES, graph kernels,
-   plan packages, audit ledgers, and shared game simulation and UX engines
-   (MUDDLE, RALLY, COURT, RACKET).
+  addresses, compact context-transfer formats, repo-local review panels, corpus
+  compilers, context packs, context algebra, replayable harness events, finished
+  shared fetch/cache substrate for ROUTE, BISECT, and ICELINES, graph kernels,
+  plan packages, audit ledgers, and shared game simulation and UX engines
+  (MUDDLE, RALLY, COURT, RACKET).
 
 That is the through-line: build the artifact, build the evaluator, then promote
 the reusable Rust substrate when more than one system needs it.
 
 ## Reach me
 
-- **Email:** giodl@microsoft.com
+- **Email:** giodl73@gmail.com
 - **GitHub:** [@giodl73-repo](https://github.com/giodl73-repo)
