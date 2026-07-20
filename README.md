@@ -41,6 +41,15 @@ The series below are the public map.
 | Tools & Infrastructure | markdown, context, fetch/cache, graph kernels, and partitioning engines | [series/tools-infrastructure.md](series/tools-infrastructure.md) |
 | Applied Systems | sports analytics and infrastructure-design workbenches | [series/applied-systems.md](series/applied-systems.md) |
 
+## Start with
+
+| Repo | What it demonstrates |
+|------|----------------------|
+| [CROP](https://github.com/giodl73-repo/CROP) | Graph-cut context selection and provenance-aware corpus tooling. |
+| [LATTICE](https://github.com/giodl73-repo/LATTICE) | Deterministic context closure, meet/join, budgets, frontiers, and receipts. |
+| [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Replayable AI harness events, checkpoints, and LATTICE handoffs. |
+| [ROUTE](https://github.com/giodl73-repo/ROUTE) | Evidence-gated Interstate 2.0 research, simulation, and design. |
+
 ## How to read the portfolio
 
 The repos are not isolated experiments. They form layers:
@@ -49,10 +58,11 @@ The repos are not isolated experiments. They form layers:
 - **Artifact** repos produce serious work in games, knowledge, civic systems, and
   design.
 - **Infrastructure** repos make those artifacts reproducible: stable markdown
-   addresses, compact context-transfer formats, repo-local review panels, corpus compilers, context packs,
-  finished shared fetch/cache substrate for ROUTE, BISECT, and ICELINES, graph
-  kernels, plan packages, audit ledgers, and shared game simulation and UX engines
-  (MUDDLE, RALLY, COURT, RACKET).
+   addresses, compact context-transfer formats, repo-local review panels, corpus
+   compilers, context packs, context algebra, replayable harness events, finished
+   shared fetch/cache substrate for ROUTE, BISECT, and ICELINES, graph kernels,
+   plan packages, audit ledgers, and shared game simulation and UX engines
+   (MUDDLE, RALLY, COURT, RACKET).
 
 That is the through-line: build the artifact, build the evaluator, then promote
 the reusable Rust substrate when more than one system needs it.
