@@ -12,13 +12,17 @@ result when the proposed intervention is not supported.
 | System | Repo | Public question | Current evidence |
 |--------|------|-----------------|------------------|
 | Highways | [ROUTE](https://github.com/giodl73-repo/ROUTE) | What should the next national road network promise? | **Flagship:** corridor research, service tiers, optimizer, simulation, maps, and evidence-labelled design. |
+| Electric grid | [PYLON](https://github.com/giodl73-repo/PYLON) | Where do transfer capability, congestion, redundancy, resilience, or interconnection headroom fail a declared grid promise? | **Core ready:** transmission analysis workspace; first cited system run is next. |
 | Passenger rail | [GAUGE](https://github.com/giodl73-repo/GAUGE) | Which corridors fail a credible trip-time, frequency, reliability, or connectivity promise? | **Cited analysis:** 12-corridor frequency run; 8 below the declared bar. |
 | Connectivity | [PACKET](https://github.com/giodl73-repo/PACKET) | Where do coverage, capacity, latency, resilience, affordability, or competition fall short? | **Cited analysis:** broadband-divide run with both tested dimensions 50% below the bar. |
 | Ports | [HARBOR](https://github.com/giodl73-repo/HARBOR) | Where do channel access, dwell, throughput, hinterland connection, or resilience constrain a gateway? | **Cited analysis:** channel-adequacy run across eight US gateways. |
 | Water | [BASIN](https://github.com/giodl73-repo/BASIN) | Where do supply, demand, storage, conveyance, reuse, resilience, or access fail a declared tier? | **Core ready:** scale-aware analysis workspace; first cited system run is next. |
+| Wastewater | [DRAIN](https://github.com/giodl73-repo/DRAIN) | Where do collection, conveyance, overflow control, treatment, recovery, or affordability fail a sanitation promise? | **Core ready:** scale-aware sanitation analysis; first cited utility run is next. |
 | Aviation | [TARMAC](https://github.com/giodl73-repo/TARMAC) | Where do delay, capacity, connectivity, resilience, competition, or access fail a declared tier? | **Core ready:** scale-aware analysis workspace; first cited network run is next. |
+| Healthcare access | [SHIELD](https://github.com/giodl73-repo/SHIELD) | Where do travel, capacity, workforce, referral continuity, affordability, or surge resilience fail? | **Transfer test:** synthetic, aggregate-only core; no patient records or medical advice. |
+| Education access | [SLATE](https://github.com/giodl73-repo/SLATE) | Where do seats, educators, programs, pathways, affordability, or resilience fail? | **Corroboration test:** synthetic, aggregate-only core; no student records or individual advice. |
 
-All five sibling cores are released at `v0.1.0`. ROUTE remains the deeper
+The sibling analysis cores are released at `v0.1.0`. ROUTE remains the deeper
 flagship and proving ground.
 
 ## ROUTE map showcase
@@ -59,9 +63,9 @@ CORPUS -> SCORE -> TIER / SERVICE PROMISE -> GAP MAP
 ```
 
 The shared shape is deliberate; the conclusions are not. A rail corridor is not
-a water system, a port is not an airport, and a healthcare network will not be
-forced into a freight-flow model. Each repo owns its dimensions, demand basis,
-review panel, evidence labels, and domain-specific failure modes.
+a water system, a port is not an airport, and healthcare or education capacity
+cannot be forced into a freight-flow model. Each repo owns its dimensions,
+demand basis, review panel, evidence labels, and domain-specific failure modes.
 
 ## Start with the evidence
 
