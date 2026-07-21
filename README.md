@@ -55,6 +55,15 @@ used it.
 | [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Replayable AI harness events, checkpoints, and LATTICE handoffs. |
 | [ROUTE](https://github.com/giodl73-repo/ROUTE) | Evidence-gated Interstate 2.0 research, simulation, maps, and design. |
 
+The public infrastructure family now extends from highways into
+[rail](https://github.com/giodl73-repo/GAUGE),
+[connectivity](https://github.com/giodl73-repo/PACKET),
+[ports](https://github.com/giodl73-repo/HARBOR),
+[water](https://github.com/giodl73-repo/BASIN), and
+[aviation](https://github.com/giodl73-repo/TARMAC). See
+[Applied Systems](series/applied-systems.md) for the full map and evidence
+boundaries.
+
 ## How to read the portfolio
 
 The repos are not isolated experiments. They form layers:
