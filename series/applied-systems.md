@@ -1,40 +1,78 @@
-# Applied Systems Series
+# Applied Systems
 
-This series contains domain workbenches that use the same Rust-first,
-evidence-heavy style against concrete public systems.
+**Real networks. Explicit service promises. Evidence before advocacy.**
+
+These repos apply the portfolio's Rust-first, evidence-gated method to public
+systems. They do not begin with a preferred project. They build a corpus, score
+what exists, classify service, find measured gaps, and preserve a rigorous null
+result when the proposed intervention is not supported.
+
+## Infrastructure 2.0
+
+| System | Repo | Public question | Current evidence |
+|--------|------|-----------------|------------------|
+| Highways | [ROUTE](https://github.com/giodl73-repo/ROUTE) | What should the next national road network promise? | **Flagship:** corridor research, service tiers, optimizer, simulation, maps, and evidence-labelled design. |
+| Passenger rail | [GAUGE](https://github.com/giodl73-repo/GAUGE) | Which corridors fail a credible trip-time, frequency, reliability, or connectivity promise? | **Cited analysis:** 12-corridor frequency run; 8 below the declared bar. |
+| Connectivity | [PACKET](https://github.com/giodl73-repo/PACKET) | Where do coverage, capacity, latency, resilience, affordability, or competition fall short? | **Cited analysis:** broadband-divide run with both tested dimensions 50% below the bar. |
+| Ports | [HARBOR](https://github.com/giodl73-repo/HARBOR) | Where do channel access, dwell, throughput, hinterland connection, or resilience constrain a gateway? | **Cited analysis:** channel-adequacy run across eight US gateways. |
+| Water | [BASIN](https://github.com/giodl73-repo/BASIN) | Where do supply, demand, storage, conveyance, reuse, resilience, or access fail a declared tier? | **Core ready:** scale-aware analysis workspace; first cited system run is next. |
+| Aviation | [TARMAC](https://github.com/giodl73-repo/TARMAC) | Where do delay, capacity, connectivity, resilience, competition, or access fail a declared tier? | **Core ready:** scale-aware analysis workspace; first cited network run is next. |
+
+All five sibling cores are released at `v0.1.0`. ROUTE remains the deeper
+flagship and proving ground.
+
+## One method, different systems
+
+```text
+PUBLIC SOURCES
+    |
+    v
+CORPUS -> SCORE -> TIER / SERVICE PROMISE -> GAP MAP
+                                            |
+                                            v
+                              CONCEPT -> REVIEW -> DESIGN
+```
+
+The shared shape is deliberate; the conclusions are not. A rail corridor is not
+a water system, a port is not an airport, and a healthcare network will not be
+forced into a freight-flow model. Each repo owns its dimensions, demand basis,
+review panel, evidence labels, and domain-specific failure modes.
+
+## Start with the evidence
+
+| Need | Start here |
+|------|------------|
+| Portfolio-scale flagship | [ROUTE — Interstate 2.0](https://github.com/giodl73-repo/ROUTE) |
+| Rail finding | [GAUGE frequency and span-of-service analysis](https://github.com/giodl73-repo/GAUGE/blob/master/docs/findings/2026-06-frequency-span-of-service.md) |
+| Connectivity finding | [PACKET broadband adoption divide](https://github.com/giodl73-repo/PACKET/blob/master/docs/findings/2026-06-broadband-adoption-divide.md) |
+| Ports finding | [HARBOR deep-draft channel tail](https://github.com/giodl73-repo/HARBOR/blob/master/docs/findings/2026-06-deep-draft-channel-tail.md) |
+| Requirements and traceability | Each repo's `docs/vtrace/` package |
+| Adversarial review | Each repo's `.roles/` parliament and editorial gate |
+
+## Other applied systems
 
 | Repo | Role |
 |------|------|
 | [ICELINES](https://github.com/giodl73-repo/ICELINES) | NHL analytics, fantasy tools, season data, and historical player/team comparisons. |
-| [ROUTE](https://github.com/giodl73-repo/ROUTE) | Interstate 2.0 research and design workbench for corridor evidence, service tiers, simulation, maps, and refinement. |
-| [GAUGE](https://github.com/giodl73-repo/GAUGE) | Rail 2.0 passenger-rail corpus, DIM-01..13 scoring, tier-SLA classification, systemic gap analysis, and cited frequency findings. |
-| [PACKET](https://github.com/giodl73-repo/PACKET) | Internet 2.0 multi-scale connectivity scoring, tier-SLA classification, gap analysis, and cited broadband-divide findings. |
-| [HARBOR](https://github.com/giodl73-repo/HARBOR) | Ports 2.0 maritime gateway, channel, dwell, hinterland, resilience, and concentrated-gap analysis. |
-| [BASIN](https://github.com/giodl73-repo/BASIN) | Water 2.0 multi-scale supply, demand, storage, conveyance, resilience, reuse, and access analysis. |
-| [TARMAC](https://github.com/giodl73-repo/TARMAC) | Aviation 2.0 multi-scale airport, route, hub, delay, capacity, connectivity, resilience, and access analysis. |
 | [ZONES](https://github.com/giodl73-repo/ZONES) | Time-zone redistricting along civic boundaries using reusable graph and district-plan systems. |
 
-## Why these belong together
+## Shared infrastructure
 
-These are applied systems: data-heavy, simulation-friendly, and grounded in
-real-world networks. ROUTE established the evidence-gated corpus-to-gap method;
-GAUGE, PACKET, HARBOR, BASIN, and TARMAC test whether that method transfers
-across distinct infrastructure domains and scales without forcing every domain
-into the same answer.
+The products stay separate, but they reuse public infrastructure where the
+contract is genuinely shared:
 
-The reusable infrastructure layer exists because these products repeatedly need
-source custody, fetching, caching, graph analysis, context selection, review,
-and reproducible artifacts. FLETCH, RLINE, METIS-CORE, CROP, ROLES, and VTRACE
-provide those shared boundaries without owning product conclusions.
+- [FLETCH](https://github.com/giodl73-repo/FLETCH) — reproducible fetch/cache bundles.
+- [RLINE](https://github.com/giodl73-repo/RLINE) and
+  [METIS-CORE](https://github.com/giodl73-repo/METIS-CORE) — graph and optimization kernels.
+- [CROP](https://github.com/giodl73-repo/CROP) — provenance-aware context selection.
+- [ROLES](https://github.com/giodl73-repo/ROLES) — repository-local review panels.
+- [VTRACE](https://github.com/giodl73-repo/VTRACE) — requirements, traceability, and verification discipline.
 
-## ROUTE evidence boundary
+## Evidence boundary
 
-ROUTE is public so its research, assumptions, code, maps, and held claims can be
-inspected. Public repository visibility does not imply an official plan,
-construction readiness, guaranteed service, agency endorsement, or deployment
-approval. Each artifact keeps its own evidence and publication label.
+Public repository visibility makes assumptions, code, corpora, findings, held
+claims, and limitations inspectable. It does **not** imply an official plan,
+engineering readiness, environmental clearance, agency endorsement, funding,
+procurement, guaranteed service, or a mandate to build.
 
-The same rule applies to GAUGE, PACKET, HARBOR, BASIN, and TARMAC. Their public
-repositories expose methods, code, corpora, findings, and limitations; they do
-not imply agency approval, engineering readiness, funding, procurement, or a
-mandate to build.
+Every artifact keeps its own evidence and publication label.
