@@ -21,6 +21,31 @@ result when the proposed intervention is not supported.
 All five sibling cores are released at `v0.1.0`. ROUTE remains the deeper
 flagship and proving ground.
 
+## ROUTE map showcase
+
+The tier model is easiest to understand by seeing the national promise spine and
+regional connector layer separately.
+
+| T1 national spine | T2 regional connectors |
+|-------------------|------------------------|
+| [![ROUTE T1 national service spine](https://raw.githubusercontent.com/giodl73-repo/ROUTE/master/maps/beck-schematic.png)](https://github.com/giodl73-repo/ROUTE/blob/master/maps/beck-schematic.png) | [![ROUTE T2 regional service map](https://raw.githubusercontent.com/giodl73-repo/ROUTE/master/maps/beck-schematic-t2-only.png)](https://github.com/giodl73-repo/ROUTE/blob/master/maps/beck-schematic-t2-only.png) |
+
+ROUTE also exercises the same evidence-gated hierarchy workflow outside the
+United States:
+
+| Canada | Rhine–Alpine | India |
+|--------|---------------|-------|
+| [![Canada candidate service hierarchy](https://raw.githubusercontent.com/giodl73-repo/ROUTE/master/maps/international/canada-candidate-hierarchy-v2.png)](https://github.com/giodl73-repo/ROUTE/blob/master/maps/international/canada-candidate-hierarchy-v2.png) | [![Rhine-Alpine candidate hierarchy](https://raw.githubusercontent.com/giodl73-repo/ROUTE/master/maps/international/eu-rhine-alpine-candidate-hierarchy-v2.png)](https://github.com/giodl73-repo/ROUTE/blob/master/maps/international/eu-rhine-alpine-candidate-hierarchy-v2.png) | [![India candidate logistics hierarchy](https://raw.githubusercontent.com/giodl73-repo/ROUTE/master/maps/international/india-candidate-hierarchy-v2.png)](https://github.com/giodl73-repo/ROUTE/blob/master/maps/international/india-candidate-hierarchy-v2.png) |
+
+[Japan](https://github.com/giodl73-repo/ROUTE/blob/master/maps/international/japan-candidate-hierarchy-v2.png)
+and
+[China](https://github.com/giodl73-repo/ROUTE/blob/master/maps/international/china-candidate-hierarchy-v2.png)
+complete the current portability set.
+
+These are structural and candidate-hierarchy review surfaces—not official
+networks, approved projects, guaranteed service, construction programs, or
+validated ROI claims.
+
 ## One method, different systems
 
 ```text
