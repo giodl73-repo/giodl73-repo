@@ -25,6 +25,11 @@ result when the proposed intervention is not supported.
 The sibling analysis cores are released at `v0.1.0`. ROUTE remains the deeper
 flagship and proving ground.
 
+ROUTE is open for reference, review, and local adaptation. Start with the
+[ROUTE open adoption guide](https://github.com/giodl73-repo/ROUTE/blob/master/docs/adoption/README.md)
+if you want to reuse the service-promise model for a state, corridor, port,
+region, terminal district, or freight network.
+
 ## ROUTE map showcase
 
 The tier model is easiest to understand by seeing the national promise spine and
@@ -72,6 +77,7 @@ demand basis, review panel, evidence labels, and domain-specific failure modes.
 | Need | Start here |
 |------|------------|
 | Portfolio-scale flagship | [ROUTE — Interstate 2.0](https://github.com/giodl73-repo/ROUTE) |
+| Public reuse / local adaptation | [ROUTE open adoption guide](https://github.com/giodl73-repo/ROUTE/blob/master/docs/adoption/README.md) |
 | Rail finding | [GAUGE frequency and span-of-service analysis](https://github.com/giodl73-repo/GAUGE/blob/master/docs/findings/2026-06-frequency-span-of-service.md) |
 | Connectivity finding | [PACKET broadband adoption divide](https://github.com/giodl73-repo/PACKET/blob/master/docs/findings/2026-06-broadband-adoption-divide.md) |
 | Ports finding | [HARBOR deep-draft channel tail](https://github.com/giodl73-repo/HARBOR/blob/master/docs/findings/2026-06-deep-draft-channel-tail.md) |

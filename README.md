@@ -39,21 +39,24 @@ The series below are the public map.
 | Election Systems | redistricting, district plans, count evidence, and audit packages | [series/election-systems.md](series/election-systems.md) |
 | Standards & Protocols | portable conventions, identifiers, context-transfer formats, and review-panel specs | [series/standards-protocols.md](series/standards-protocols.md) |
 | Tools & Infrastructure | markdown, context selection and algebra, harness replay, fetch/cache, graph kernels, and partitioning | [series/tools-infrastructure.md](series/tools-infrastructure.md) |
-| Applied Systems | sports analytics and infrastructure-design workbenches | [series/applied-systems.md](series/applied-systems.md) |
+| Applied Systems | evidence-gated public-system design: highways, rail, grid, ports, water, aviation, connectivity, and applied analytics | [series/applied-systems.md](series/applied-systems.md) |
 
 ## Start with
 
-These four repos show the portfolio's artifact-to-context through-line: ROUTE
-produces evidence-heavy work; CROP selects relevant source context; LATTICE
+These four repos show the portfolio's artifact-to-context through-line: ROUTE is
+the public-systems flagship; CROP selects relevant source context; LATTICE
 closes and explains that context; FLETCHER records and replays how an AI harness
 used it.
 
 | Repo | What it demonstrates |
 |------|----------------------|
+| [ROUTE](https://github.com/giodl73-repo/ROUTE) | Evidence-gated Interstate 2.0 research, simulation, maps, design doctrine, and reviewed papers. |
 | [CROP](https://github.com/giodl73-repo/CROP) | Graph-cut context selection and provenance-aware corpus tooling. |
 | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Deterministic context closure, meet/join, budgets, frontiers, and receipts. |
 | [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Replayable AI harness events, checkpoints, and LATTICE handoffs. |
-| [ROUTE](https://github.com/giodl73-repo/ROUTE) | Evidence-gated Interstate 2.0 research, simulation, maps, and design. |
+
+ROUTE is open for reference, review, and local adaptation; start with the
+[open adoption guide](https://github.com/giodl73-repo/ROUTE/blob/master/docs/adoption/README.md).
 
 The public infrastructure family now extends from highways into
 [rail](https://github.com/giodl73-repo/GAUGE),
