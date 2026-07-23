@@ -23,12 +23,25 @@ result when the proposed intervention is not supported.
 | Education access | [SLATE](https://github.com/giodl73-repo/SLATE) | Where do seats, educators, programs, pathways, affordability, or resilience fail? | **Corroboration test:** synthetic, aggregate-only core; no student records or individual advice. |
 
 The sibling analysis cores are released at `v0.1.0`. ROUTE remains the deeper
-flagship and proving ground.
+flagship and proving ground. GAUGE, PACKET, and HARBOR already have cited
+findings and open local-adaptation paths; PYLON, BASIN, DRAIN, and TARMAC are
+ready for narrowly scoped first public runs; SHIELD and SLATE are aggregate-only
+transfer tests with explicit privacy and non-advice boundaries.
 
-ROUTE is open for reference, review, and local adaptation. Start with the
-[ROUTE open adoption guide](https://github.com/giodl73-repo/ROUTE/blob/master/docs/adoption/README.md)
-if you want to reuse the service-promise model for a state, corridor, port,
-region, terminal district, or freight network.
+## Open adoption paths
+
+| Repo | Public path |
+|------|-------------|
+| [ROUTE](https://github.com/giodl73-repo/ROUTE) | [Open adoption guide](https://github.com/giodl73-repo/ROUTE/blob/master/docs/adoption/README.md) |
+| [GAUGE](https://github.com/giodl73-repo/GAUGE) | [Local adaptation guide](https://github.com/giodl73-repo/GAUGE/blob/master/docs/adoption/README.md) |
+| [PACKET](https://github.com/giodl73-repo/PACKET) | [Local adaptation guide](https://github.com/giodl73-repo/PACKET/blob/master/docs/adoption/README.md) |
+| [HARBOR](https://github.com/giodl73-repo/HARBOR) | [Local adaptation guide](https://github.com/giodl73-repo/HARBOR/blob/master/docs/adoption/README.md) |
+| [PYLON](https://github.com/giodl73-repo/PYLON) | [First public run guide](https://github.com/giodl73-repo/PYLON/blob/master/docs/adoption/README.md) |
+| [BASIN](https://github.com/giodl73-repo/BASIN) | [First public run guide](https://github.com/giodl73-repo/BASIN/blob/master/docs/adoption/README.md) |
+| [DRAIN](https://github.com/giodl73-repo/DRAIN) | [First public run guide](https://github.com/giodl73-repo/DRAIN/blob/master/docs/adoption/README.md) |
+| [TARMAC](https://github.com/giodl73-repo/TARMAC) | [First public run guide](https://github.com/giodl73-repo/TARMAC/blob/master/docs/adoption/README.md) |
+| [SHIELD](https://github.com/giodl73-repo/SHIELD) | [Aggregate review guide](https://github.com/giodl73-repo/SHIELD/blob/master/docs/adoption/README.md) |
+| [SLATE](https://github.com/giodl73-repo/SLATE) | [Aggregate review guide](https://github.com/giodl73-repo/SLATE/blob/master/docs/adoption/README.md) |
 
 ## ROUTE map showcase
 
@@ -77,7 +90,7 @@ demand basis, review panel, evidence labels, and domain-specific failure modes.
 | Need | Start here |
 |------|------------|
 | Portfolio-scale flagship | [ROUTE — Interstate 2.0](https://github.com/giodl73-repo/ROUTE) |
-| Public reuse / local adaptation | [ROUTE open adoption guide](https://github.com/giodl73-repo/ROUTE/blob/master/docs/adoption/README.md) |
+| Public reuse / local adaptation | [Open adoption paths](#open-adoption-paths) |
 | Rail finding | [GAUGE frequency and span-of-service analysis](https://github.com/giodl73-repo/GAUGE/blob/master/docs/findings/2026-06-frequency-span-of-service.md) |
 | Connectivity finding | [PACKET broadband adoption divide](https://github.com/giodl73-repo/PACKET/blob/master/docs/findings/2026-06-broadband-adoption-divide.md) |
 | Ports finding | [HARBOR deep-draft channel tail](https://github.com/giodl73-repo/HARBOR/blob/master/docs/findings/2026-06-deep-draft-channel-tail.md) |
