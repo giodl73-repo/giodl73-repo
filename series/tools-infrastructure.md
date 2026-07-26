@@ -7,7 +7,7 @@ manifests, shared kernels, and graph partitioning.
 | Repo | Role |
 |------|------|
 | [MDLOOM](https://github.com/giodl73-repo/MDLOOM) | Markdown compiler and checker for terminal-first documents, dashboards, math, and diagrams. |
-| [MDCROP](https://github.com/giodl73-repo/MDMDCROP) | Graph-cut context cropping and corpus status for AI agents and documentation systems. |
+| [MDCROP](https://github.com/giodl73-repo/MDCROP) | Markdown corpus indexing, graph selection, and bounded context packing. |
 | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Product-neutral context algebra for deterministic closure, meet/join, budgets, frontiers, packs, and receipts. |
 | [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Replayable AI harness event, checkpoint, and LATTICE handoff contracts with a minimal public CLI. |
 | [FLETCH](https://github.com/giodl73-repo/FLETCH) | Shared fetch/cache/bundle substrate for reproducible data acquisition across ROUTE, BISECT, and ICELINES. |
@@ -21,11 +21,26 @@ compilation, context selection, context algebra, harness replay, data
 acquisition, kernels, and partitioning. Election, route, sports, corpus, and
 agent systems can all use them without inheriting each other's product logic.
 
+## MD family
+
+MDLOOM and MDCROP are the executable members of a four-repository Markdown
+toolchain:
+
+```text
+Markdown → MDPATH → MDCROP → MDLOOM → MDPORT
+             address    select     build      transfer
+```
+
+[MDPATH](https://github.com/giodl73-repo/MDPATH) and
+[MDPORT](https://github.com/giodl73-repo/MDPORT) live in Standards & Protocols
+because their primary artifacts are interoperable conventions. MDCROP and
+MDLOOM live here because their primary artifacts are executable Rust tools.
+
 ## Context and harness stack
 
 | Layer | Repo | Responsibility |
 |------|------|----------------|
-| Candidate selection | [MDCROP](https://github.com/giodl73-repo/MDMDCROP) | Find and pack the relevant source neighborhood with provenance. |
+| Candidate selection | [MDCROP](https://github.com/giodl73-repo/MDCROP) | Find and pack the relevant source neighborhood with provenance. |
 | Semantic closure | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Close, combine, budget, explain, and receipt context. |
 | Harness control | [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Record, checkpoint, project, and replay how an AI harness uses context. |
 | Graph partitioning | [METIS-CORE](https://github.com/giodl73-repo/METIS-CORE) | Supply optional low-level partitioning without owning context semantics. |

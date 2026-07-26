@@ -19,3 +19,16 @@ durable value is the protocol that lets many repositories interoperate.
 Boundary rule: a repo belongs here when the convention or identifier is the
 main artifact. A repo with protocols inside it can still belong in Tools &
 Infrastructure when its primary public surface is executable shared code.
+
+## MD family
+
+MDPATH and MDPORT are the protocol endpoints of the broader MD family:
+
+```text
+Markdown → MDPATH → MDCROP → MDLOOM → MDPORT
+             address    select     build      transfer
+```
+
+[MDCROP](https://github.com/giodl73-repo/MDCROP) and
+[MDLOOM](https://github.com/giodl73-repo/MDLOOM) are the executable middle
+layers and therefore live in Tools & Infrastructure.

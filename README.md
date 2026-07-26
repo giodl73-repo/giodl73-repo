@@ -41,6 +41,23 @@ The series below are the public map.
 | Tools & Infrastructure | markdown, context selection and algebra, harness replay, fetch/cache, graph kernels, and partitioning | [series/tools-infrastructure.md](series/tools-infrastructure.md) |
 | Applied Systems | evidence-gated public-system design: highways, rail, grid, ports, water, aviation, connectivity, and applied analytics | [series/applied-systems.md](series/applied-systems.md) |
 
+## The MD family
+
+The MD family is a four-stage Markdown toolchain. Each repository owns one
+boundary, so the stack is easy to adopt one layer at a time:
+
+```text
+Markdown → MDPATH → MDCROP → MDLOOM → MDPORT
+             address    select     build      transfer
+```
+
+| Repo | Responsibility |
+|------|----------------|
+| [MDPATH](https://github.com/giodl73-repo/MDPATH) | Give headings, figures, tables, and sections stable `md://` addresses. |
+| [MDCROP](https://github.com/giodl73-repo/MDCROP) | Index, graph, filter, and select bounded Markdown corpus context. |
+| [MDLOOM](https://github.com/giodl73-repo/MDLOOM) | Validate, compile, render, and publish Markdown into human-facing formats. |
+| [MDPORT](https://github.com/giodl73-repo/MDPORT) | Carry compact `mdport.v1` document and corpus-slice records between tools. |
+
 ## Start with
 
 These four repos show the portfolio's artifact-to-context through-line: ROUTE is
@@ -51,7 +68,7 @@ used it.
 | Repo | What it demonstrates |
 |------|----------------------|
 | [ROUTE](https://github.com/giodl73-repo/ROUTE) | Evidence-gated Interstate 2.0 research, simulation, maps, design doctrine, and reviewed papers. |
-| [MDCROP](https://github.com/giodl73-repo/MDMDCROP) | Graph-cut context selection and provenance-aware corpus tooling. |
+| [MDCROP](https://github.com/giodl73-repo/MDCROP) | Graph-cut context selection and provenance-aware corpus tooling. |
 | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Deterministic context closure, meet/join, budgets, frontiers, and receipts. |
 | [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Replayable AI harness events, checkpoints, and LATTICE handoffs. |
 
