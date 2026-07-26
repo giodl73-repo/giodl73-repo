@@ -112,7 +112,7 @@ contract is genuinely shared:
 - [FLETCH](https://github.com/giodl73-repo/FLETCH) — reproducible fetch/cache bundles.
 - [RLINE](https://github.com/giodl73-repo/RLINE) and
   [METIS-CORE](https://github.com/giodl73-repo/METIS-CORE) — graph and optimization kernels.
-- [CROP](https://github.com/giodl73-repo/CROP) — provenance-aware context selection.
+- [MDCROP](https://github.com/giodl73-repo/MDMDCROP) — provenance-aware context selection.
 - [ROLES](https://github.com/giodl73-repo/ROLES) — repository-local review panels.
 - [VTRACE](https://github.com/giodl73-repo/VTRACE) — requirements, traceability, and verification discipline.
 

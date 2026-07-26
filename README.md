@@ -44,14 +44,14 @@ The series below are the public map.
 ## Start with
 
 These four repos show the portfolio's artifact-to-context through-line: ROUTE is
-the public-systems flagship; CROP selects relevant source context; LATTICE
+the public-systems flagship; MDCROP selects relevant source context; LATTICE
 closes and explains that context; FLETCHER records and replays how an AI harness
 used it.
 
 | Repo | What it demonstrates |
 |------|----------------------|
 | [ROUTE](https://github.com/giodl73-repo/ROUTE) | Evidence-gated Interstate 2.0 research, simulation, maps, design doctrine, and reviewed papers. |
-| [CROP](https://github.com/giodl73-repo/CROP) | Graph-cut context selection and provenance-aware corpus tooling. |
+| [MDCROP](https://github.com/giodl73-repo/MDMDCROP) | Graph-cut context selection and provenance-aware corpus tooling. |
 | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Deterministic context closure, meet/join, budgets, frontiers, and receipts. |
 | [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Replayable AI harness events, checkpoints, and LATTICE handoffs. |
 
