@@ -36,14 +36,25 @@ Markdown → MDPATH → MDCROP → MDLOOM → MDPORT
 because their primary artifacts are interoperable conventions. MDCROP and
 MDLOOM live here because their primary artifacts are executable Rust tools.
 
-## Context and harness stack
+## Context & Harness family
+
+```text
+Sources → FLETCH → MDCROP → LATTICE → FLETCHER
+           fetch     select     close       replay
+```
 
 | Layer | Repo | Responsibility |
 |------|------|----------------|
-| Candidate selection | [MDCROP](https://github.com/giodl73-repo/MDCROP) | Find and pack the relevant source neighborhood with provenance. |
+| Acquisition | [FLETCH](https://github.com/giodl73-repo/FLETCH) | Fetch, verify, cache, partition, and bundle source material. |
+| Candidate selection | [MDCROP](https://github.com/giodl73-repo/MDCROP) | Find and pack a bounded source neighborhood with provenance. |
 | Semantic closure | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Close, combine, budget, explain, and receipt context. |
-| Harness control | [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Record, checkpoint, project, and replay how an AI harness uses context. |
-| Graph partitioning | [METIS-CORE](https://github.com/giodl73-repo/METIS-CORE) | Supply optional low-level partitioning without owning context semantics. |
+| Harness capture and replay | [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Record, checkpoint, project, and replay how an AI harness uses context. |
+
+The family is a pipeline, not a monolith. Each repository can be adopted
+independently, and each boundary remains inspectable.
+
+METIS-CORE supplies optional low-level graph partitioning without owning
+context semantics.
 
 The public LATTICE and FLETCHER repositories are product-neutral cores. They do
 not include private sessions, customer material, approval records, funding
