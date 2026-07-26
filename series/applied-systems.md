@@ -9,6 +9,24 @@ result when the proposed intervention is not supported.
 
 ## Infrastructure 2.0
 
+```text
+PUBLIC SOURCES → CORPUS → SCORE → SERVICE PROMISE → GAP MAP
+                                                     ↓
+                                      CONCEPT → REVIEW → DESIGN
+```
+
+| Lane | Repositories |
+|------|--------------|
+| Movement | ROUTE, GAUGE, TARMAC, HARBOR |
+| Lifelines | PYLON, PACKET, BASIN, DRAIN |
+| Public access | SHIELD, SLATE |
+| Civic boundaries | ZONES |
+
+The family shares evidence labels, explicit scale and demand bases, T1–T4
+service promises where meaningful, adversarial review, and acceptance of a
+rigorous null result. The method is shared; domain semantics, engineering
+limits, privacy boundaries, and regulatory claims remain repo-owned.
+
 | System | Repo | Public question | Current evidence |
 |--------|------|-----------------|------------------|
 | Highways | [ROUTE](https://github.com/giodl73-repo/ROUTE) | What should the next national road network promise? | **Flagship:** corridor research, service tiers, optimizer, simulation, maps, and evidence-labelled design. |
