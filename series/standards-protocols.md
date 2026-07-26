@@ -6,7 +6,7 @@ repos can adopt without inheriting a full implementation stack.
 | Repo | Role |
 |------|------|
 | [MDPATH](https://github.com/giodl73-repo/MDPATH) | Stable `md://` URI library and addressing convention for headings, figures, tables, and diagrams in markdown corpora. |
-| [PEBBLE](https://github.com/giodl73-repo/PEBBLE) | Compact `pebble.v1` context transfer schema and Rust crate for AI-ready document and corpus slices shared by PROOF, CROP, and future tools. |
+| [MDPORT](https://github.com/giodl73-repo/MDPORT) | Compact `mdport.v1` context transfer schema and Rust crate for AI-ready document and corpus slices shared by MDLOOM, CROP, and future tools. |
 | [ROLES](https://github.com/giodl73-repo/ROLES) | Portable `.roles` convention for repository-local review panels, role metadata, and review/authoring skills. |
 
 ## Why these belong together

@@ -44,9 +44,9 @@ each cloned working tree's `.git/config`; don't hardcode paths.
 | ASPECT | visualization design lab |
 | PROSE | writing design lab |
 | SCORE | music design lab |
-| PROOF | markdown compiler + linter (Rust) |
+| MDLOOM | markdown compiler + linter (Rust) |
 | MDPATH | `md://` URI library (Rust) |
-| PEBBLE | compact `pebble.v1` context transfer schema (Rust) |
+| MDPORT | compact `mdport.v1` context transfer schema (Rust) |
 | ICELINES | NHL analytics platform (Rust) |
 | giodl73-repo | this profile repo |
 

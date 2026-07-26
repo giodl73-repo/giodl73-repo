@@ -6,7 +6,7 @@ manifests, shared kernels, and graph partitioning.
 
 | Repo | Role |
 |------|------|
-| [PROOF](https://github.com/giodl73-repo/PROOF) | Markdown compiler and checker for terminal-first documents, dashboards, math, and diagrams. |
+| [MDLOOM](https://github.com/giodl73-repo/MDLOOM) | Markdown compiler and checker for terminal-first documents, dashboards, math, and diagrams. |
 | [CROP](https://github.com/giodl73-repo/CROP) | Graph-cut context cropping and corpus status for AI agents and documentation systems. |
 | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Product-neutral context algebra for deterministic closure, meet/join, budgets, frontiers, packs, and receipts. |
 | [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Replayable AI harness event, checkpoint, and LATTICE handoff contracts with a minimal public CLI. |
