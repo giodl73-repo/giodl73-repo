@@ -52,3 +52,17 @@ material, or organization-specific integrations.
 RLINE stays here rather than Standards & Protocols because its primary artifact
 is a shared Rust kernel workspace. Its manifests and contracts support that
 workspace; they are not the repo's standalone public convention.
+
+## R package family
+
+RLINE is the product-neutral foundation for the election package family:
+
+```text
+                    ┌→ RPLAN  — district-plan packages, IO, and audits ─┐
+RLINE — kernels ────┤                                                   ├→ BISECT
+                    └→ RCOUNT — count packages and audit replay ────────┘
+```
+
+RPLAN, RCOUNT, and BISECT are documented in
+[Election Systems](election-systems.md). The dependency direction stays
+outward from RLINE; the kernel workspace does not depend on election products.
