@@ -28,13 +28,46 @@ The pattern is consistent across the portfolio:
 
 The series below are the public map.
 
+## New portfolio highlight: TAXLANE
+
+[TAXLANE](https://github.com/giodl73-repo/TAXLANE) asks a deceptively simple
+question: **what should income-tax rates be if government spending claims have
+to prove themselves first?**
+
+Instead of beginning with a desired rate or headline savings number, TAXLANE
+examines fifteen public-purpose and accounting tracks through one evidence
+spine. It tests the fiscal object, source currency, net cost, overlap,
+beneficiary and service-continuity effects, implementation burden, and
+distribution boundary before admitting a spending reduction. Payment integrity
+stays non-additive, interest follows the debt path, dedicated old-age solvency
+stays separate, and revenue finances only the scoped remainder.
+
+The completed internal analysis admits **$0.000 billion** in FY2026 primary
+spending reductions, retains a scoped **$813.727 billion** ordinary-income
+target, and recommends **21/23/33/35/43/46/48** as its preferred analytical
+marginal bracket schedule, with distinct behavior-contingency and severe-stress
+rails. Zero is a result: unsupported savings are excluded rather than guessed.
+
+The repository includes a 21-deliverable explanation corpus, ten research
+papers, three presentations, an accessible six-page local website,
+machine-readable closure records, twelve eight-lens review rounds, and 388
+passing tests.
+
+Start with the [new TAXLANE README](https://github.com/giodl73-repo/TAXLANE),
+the [final briefing bundle](https://github.com/giodl73-repo/TAXLANE/blob/main/docs/explanation/final/briefing-bundle-index.md),
+or the [local website source](https://github.com/giodl73-repo/TAXLANE/tree/main/docs/explanation/site).
+
+TAXLANE is an internal analytical recommendation, not enacted law, personal
+tax advice, an official score, formal proof of balance, or an authorized public
+deployment.
+
 ## Series
 
 | Series | What it contains | Start here |
 |--------|------------------|------------|
 | AI Methodology | decision intelligence and simulated expert review | [series/ai-methodology.md](series/ai-methodology.md) |
 | Games Design | puzzle hunts, D&D, board games, escape rooms, and world-building simulators — with shared simulation and UX infrastructure | [series/games-design.md](series/games-design.md) |
-| Knowledge Systems | civilization, reference, and local-production corpora | [series/knowledge-systems.md](series/knowledge-systems.md) |
+| Knowledge Systems | civilization, reference, local-production, and evidence-gated fiscal corpora | [series/knowledge-systems.md](series/knowledge-systems.md) |
 | Design Labs | visualization, writing, and music scoring labs | [series/design-labs.md](series/design-labs.md) |
 | Election Systems | redistricting, district plans, count evidence, and audit packages | [series/election-systems.md](series/election-systems.md) |
 | Standards & Protocols | portable conventions, identifiers, context-transfer formats, and review-panel specs | [series/standards-protocols.md](series/standards-protocols.md) |
@@ -60,13 +93,15 @@ Markdown → MDPATH → MDCROP → MDLOOM → MDPORT
 
 ## Start with
 
-These four repos show the portfolio's artifact-to-context through-line: ROUTE is
-the public-systems flagship; MDCROP selects relevant source context; LATTICE
-closes and explains that context; FLETCHER records and replays how an AI harness
-used it.
+These five repos show the portfolio's artifact-to-context through-line: TAXLANE
+is the new evidence-to-rate knowledge-system highlight; ROUTE is the
+public-systems flagship; MDCROP selects relevant source context; LATTICE closes
+and explains that context; FLETCHER records and replays how an AI harness used
+it.
 
 | Repo | What it demonstrates |
 |------|----------------------|
+| [TAXLANE](https://github.com/giodl73-repo/TAXLANE) | Fifteen evidence-gated fiscal tracks, disciplined zero admission, one accounting spine, and an adaptive analytical rate result. |
 | [ROUTE](https://github.com/giodl73-repo/ROUTE) | Evidence-gated Interstate 2.0 research, simulation, maps, design doctrine, and reviewed papers. |
 | [MDCROP](https://github.com/giodl73-repo/MDCROP) | Graph-cut context selection and provenance-aware corpus tooling. |
 | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Deterministic context closure, meet/join, budgets, frontiers, and receipts. |
