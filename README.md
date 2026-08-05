@@ -28,6 +28,26 @@ The pattern is consistent across the portfolio:
 
 The series below are the public map.
 
+## Open for owner pilots: CODEPRINTS
+
+[CODEPRINTS](https://github.com/giodl73-repo/CODEPRINTS) asks whether software
+teams need blueprints for code: typed, versioned structural authority that
+compiles into ordinary native source while handwritten behavior stays
+independent.
+
+The repository contains an executable Rust compiler, one integrated C#/.NET
+target, four target-language proofs, semantic compatibility classification,
+immutable publication evidence, and 22 retained scenarios. Its strongest
+result is also its constraint: generation works, but the evidence did not
+justify a general generation product. Codeprints therefore remains `narrow`
+and is looking for one real system where compatibility analysis or semantic
+diff can remove repeated maintenance without creating a second source of
+truth.
+
+If you maintain working native code with that problem, read the
+[owner-pilot gate](https://github.com/giodl73-repo/CODEPRINTS/blob/main/docs/product/OWNER_PILOT.md)
+or [open a pilot request](https://github.com/giodl73-repo/CODEPRINTS/issues/new?template=owner-pilot.yml).
+
 ## New portfolio highlight: TAXLANE
 
 [TAXLANE](https://github.com/giodl73-repo/TAXLANE) asks a deceptively simple
@@ -71,7 +91,7 @@ deployment.
 | Design Labs | visualization, writing, and music scoring labs | [series/design-labs.md](series/design-labs.md) |
 | Election Systems | redistricting, district plans, count evidence, and audit packages | [series/election-systems.md](series/election-systems.md) |
 | Standards & Protocols | portable conventions, identifiers, context-transfer formats, and review-panel specs | [series/standards-protocols.md](series/standards-protocols.md) |
-| Tools & Infrastructure | markdown, context selection and algebra, harness replay, fetch/cache, graph kernels, and partitioning | [series/tools-infrastructure.md](series/tools-infrastructure.md) |
+| Tools & Infrastructure | native-code blueprints, markdown, context selection and algebra, harness replay, fetch/cache, graph kernels, and partitioning | [series/tools-infrastructure.md](series/tools-infrastructure.md) |
 | Applied Systems | evidence-gated public-system design: highways, rail, grid, ports, water, aviation, connectivity, and applied analytics | [series/applied-systems.md](series/applied-systems.md) |
 
 ## The MD family
@@ -93,14 +113,15 @@ Markdown → MDPATH → MDCROP → MDLOOM → MDPORT
 
 ## Start with
 
-These five repos show the portfolio's artifact-to-context through-line: TAXLANE
-is the new evidence-to-rate knowledge-system highlight; ROUTE is the
-public-systems flagship; MDCROP selects relevant source context; LATTICE closes
-and explains that context; FLETCHER records and replays how an AI harness used
-it.
+These six repos show the portfolio's artifact-to-context through-line:
+CODEPRINTS tests blueprint-first native-code evolution; TAXLANE is the new
+evidence-to-rate knowledge-system highlight; ROUTE is the public-systems
+flagship; MDCROP selects relevant source context; LATTICE closes and explains
+that context; FLETCHER records and replays how an AI harness used it.
 
 | Repo | What it demonstrates |
 |------|----------------------|
+| [CODEPRINTS](https://github.com/giodl73-repo/CODEPRINTS) | Typed blueprints compiled to readable native code, with compatibility evidence and an explicit owner-pilot gate. |
 | [TAXLANE](https://github.com/giodl73-repo/TAXLANE) | Fifteen evidence-gated fiscal tracks, disciplined zero admission, one accounting spine, and an adaptive analytical rate result. |
 | [ROUTE](https://github.com/giodl73-repo/ROUTE) | Evidence-gated Interstate 2.0 research, simulation, maps, design doctrine, and reviewed papers. |
 | [MDCROP](https://github.com/giodl73-repo/MDCROP) | Graph-cut context selection and provenance-aware corpus tooling. |
