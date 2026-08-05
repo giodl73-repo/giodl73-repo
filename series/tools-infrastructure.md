@@ -1,13 +1,11 @@
 # Tools & Infrastructure Series
 
-This series contains reusable Rust tools and bounded infrastructure research:
-native-code blueprints, markdown compilation, context selection, context
-algebra, harness replay, fetch/cache manifests, shared kernels, and graph
-partitioning.
+This series contains reusable Rust tools that other systems can adopt: markdown
+compilation, context selection, context algebra, harness replay, fetch/cache
+manifests, shared kernels, and graph partitioning.
 
 | Repo | Role |
 |------|------|
-| [CODEPRINTS](https://github.com/giodl73-repo/CODEPRINTS) | Blueprint-first native-code research with an executable Rust/.NET compiler, semantic compatibility evidence, and bounded owner pilots. |
 | [MDLOOM](https://github.com/giodl73-repo/MDLOOM) | Markdown compiler and checker for terminal-first documents, dashboards, math, and diagrams. |
 | [MDCROP](https://github.com/giodl73-repo/MDCROP) | Markdown corpus indexing, graph selection, and bounded context packing. |
 | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Product-neutral context algebra for deterministic closure, meet/join, budgets, frontiers, packs, and receipts. |
@@ -18,17 +16,10 @@ partitioning.
 
 ## Why these belong together
 
-These repos are not one product's private internals. They are system components
-or bounded infrastructure investigations: native-code compilation, document
+These repos are not one product's private internals. They are system components:
 compilation, context selection, context algebra, harness replay, data
-acquisition, kernels, and partitioning. Election, route, sports, corpus, agent,
-and developer-tool systems can evaluate them without inheriting each other's
-product logic.
-
-CODEPRINTS is deliberately not presented as a general portfolio dependency.
-Its compiler and scenarios are executable evidence, while product expansion
-remains frozen until a working owner system demonstrates value from one
-compatibility-analysis or semantic-diff capability.
+acquisition, kernels, and partitioning. Election, route, sports, corpus, and
+agent systems can all use them without inheriting each other's product logic.
 
 ## MD family
 
