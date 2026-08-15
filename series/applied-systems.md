@@ -20,6 +20,7 @@ PUBLIC SOURCES → CORPUS → SCORE → SERVICE PROMISE → GAP MAP
 | Movement | ROUTE, GAUGE, TARMAC, HARBOR |
 | Lifelines | PYLON, PACKET, BASIN, DRAIN |
 | Public access | SHIELD, SLATE |
+| Public guarantees | ANCHOR, BASTION, LIFELINE, COVENANT, TRIBUNAL, ENVOY |
 | Civic boundaries | ZONES |
 
 The family shares evidence labels, explicit scale and demand bases, T1–T4
@@ -45,6 +46,31 @@ flagship and proving ground. GAUGE, PACKET, and HARBOR already have cited
 findings and open local-adaptation paths; PYLON, BASIN, DRAIN, and TARMAC are
 ready for narrowly scoped first public runs; SHIELD and SLATE are aggregate-only
 transfer tests with explicit privacy and non-advice boundaries.
+
+## Public Guarantees 2.0
+
+**Start with the outcome people must be able to rely on, not the size of the
+program intended to provide it.**
+
+These six repos extend the evidence-gated method from physical networks and
+public access into public guarantees. Each keeps access, continuity,
+administration, capacity, safeguards, and durable outcomes visible while
+preserving domain-specific rights, privacy, evidence, and non-advice
+boundaries.
+
+| System | Repo | Public question | Boundary |
+|--------|------|-----------------|----------|
+| Retirement and disability | [ANCHOR](https://github.com/giodl73-repo/ANCHOR) | Can people reach and sustain adequate support while administration and solvency remain legible? | Aggregate analysis; no individual eligibility or benefit advice. |
+| Defense | [BASTION](https://github.com/giodl73-repo/BASTION) | Where do readiness, acquisition, sustainment, logistics, or resilience fail an aggregate public promise? | Public evidence only; no classified data or operational advice. |
+| Income security | [LIFELINE](https://github.com/giodl73-repo/LIFELINE) | Can eligible households maintain benefit continuity and stability across access and administrative friction? | Aggregate analysis; no individual eligibility or benefit advice. |
+| Veterans services | [COVENANT](https://github.com/giodl73-repo/COVENANT) | Can veterans sustain life-course service continuity with explicit access and safety floors? | No individual benefits, legal, or medical advice. |
+| Justice | [TRIBUNAL](https://github.com/giodl73-repo/TRIBUNAL) | Can rights-bounded caseflow produce timely, legible, and durable resolution? | No legal advice or individual case assessment. |
+| International affairs | [ENVOY](https://github.com/giodl73-repo/ENVOY) | Does assistance reach intended recipients and produce durable outcomes rather than delivery activity alone? | No diplomatic, security, or operational advice. |
+
+Their shared method does not make the domains interchangeable. Readiness is not
+solvency, benefit continuity is not caseflow, and delivery is not durable
+outcome realization. Each repository owns its own sources, dimensions,
+evidence gates, and claims.
 
 ## Open adoption paths
 

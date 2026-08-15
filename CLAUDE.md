@@ -7,9 +7,8 @@ portfolio of personal-account repos.
 
 - **`README.md`** — public profile narrative; intro + AI-first development
   thesis + the portfolio breakdown.
-- **`TRACKER.md`** — status board for the 10+ public repos. Per-repo
-  checklist columns track readiness (LICENSE, AI-sim disclaimers, gitignore,
-  PDFs, etc.). Read this first when working on any portfolio repo.
+- The private **TRACKER** repository owns the complete portfolio registry,
+  readiness checklist, dependency intake, and exact submodule snapshots.
 - **`HOPPER.md`** — future-project ideas list. Where new repo concepts go
   before they get a home.
 - **`.claude/skills/new-repo/`** — opinionated 10-step prep pass for a new
@@ -27,28 +26,10 @@ portfolio of personal-account repos.
 
 ## Portfolio at a glance
 
-The public repos under `giodl73-repo` on GitHub. Local path mappings are in
-each cloned working tree's `.git/config`; don't hardcode paths.
-
-| Repo | Theme |
-|------|-------|
-| SIGNALS | feature decision intelligence |
-| PANEL | AI-simulated expert review |
-| LUCIA | human chronicle (narrative encyclopedia) |
-| MAXIM | reference library |
-| CERES | local production atlas |
-| REDIST | automated congressional redistricting |
-| HUNT | puzzle hunt production pipeline |
-| QUEST | D&D workshop |
-| TIGRIS | board game factory |
-| ASPECT | visualization design lab |
-| PROSE | writing design lab |
-| SCORE | music design lab |
-| MDLOOM | markdown compiler + linter (Rust) |
-| MDPATH | `md://` URI library (Rust) |
-| MDPORT | compact `mdport.v1` context transfer schema (Rust) |
-| ICELINES | NHL analytics platform (Rust) |
-| giodl73-repo | this profile repo |
+`README.md` and `series/` are the public map. They now cover AI methodology,
+games, knowledge systems, design labs, elections, standards, tools, and applied
+systems, including the Public Guarantees 2.0 siblings, FACTORIUM, and
+STACK-AND-TRACK. Do not maintain a second exhaustive repo list here.
 
 ## Conventions across all public repos
 
@@ -74,7 +55,8 @@ each cloned working tree's `.git/config`; don't hardcode paths.
 
 ## When working on a portfolio repo
 
-- Read TRACKER.md first to see where the repo stands.
+- Read the target repo's own instructions first. Use the private TRACKER
+  repository for portfolio status, dependency placement, and snapshot state.
 - For a brand-new repo: run `/new-repo` (or follow the steps in
   `.claude/skills/new-repo/SKILL.md`).
 - For a status check: run `/audit-repo` (read-only).

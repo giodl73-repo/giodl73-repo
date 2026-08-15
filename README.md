@@ -65,14 +65,42 @@ deployment.
 
 | Series | What it contains | Start here |
 |--------|------------------|------------|
-| AI Methodology | decision intelligence and simulated expert review | [series/ai-methodology.md](series/ai-methodology.md) |
+| AI Methodology | decision intelligence, simulated expert review, realized-gain learning, and reprioritization | [series/ai-methodology.md](series/ai-methodology.md) |
 | Games Design | puzzle hunts, D&D, board games, escape rooms, and world-building simulators — with shared simulation and UX infrastructure | [series/games-design.md](series/games-design.md) |
-| Knowledge Systems | civilization, reference, local-production, and evidence-gated fiscal corpora | [series/knowledge-systems.md](series/knowledge-systems.md) |
+| Knowledge Systems | civilization, reference, decomposition, local-production, and evidence-gated fiscal corpora | [series/knowledge-systems.md](series/knowledge-systems.md) |
 | Design Labs | visualization, writing, and music scoring labs | [series/design-labs.md](series/design-labs.md) |
 | Election Systems | redistricting, district plans, count evidence, and audit packages | [series/election-systems.md](series/election-systems.md) |
 | Standards & Protocols | portable conventions, identifiers, context-transfer formats, and review-panel specs | [series/standards-protocols.md](series/standards-protocols.md) |
 | Tools & Infrastructure | markdown, context selection and algebra, harness replay, fetch/cache, graph kernels, and partitioning | [series/tools-infrastructure.md](series/tools-infrastructure.md) |
-| Applied Systems | evidence-gated public-system design: highways, rail, grid, ports, water, aviation, connectivity, and applied analytics | [series/applied-systems.md](series/applied-systems.md) |
+| Applied Systems | evidence-gated infrastructure, public access, benefit continuity, justice, international assistance, and applied analytics | [series/applied-systems.md](series/applied-systems.md) |
+
+## New public-guarantee systems
+
+Six new Applied Systems repos start from a public outcome and work backward to
+the access, continuity, administration, capacity, safeguards, and evidence
+needed to make that outcome credible.
+
+| Repo | Outcome-first question |
+|------|------------------------|
+| [ANCHOR](https://github.com/giodl73-repo/ANCHOR) | Can retirement and disability support remain adequate, reachable, administrable, and solvent? |
+| [BASTION](https://github.com/giodl73-repo/BASTION) | Where do public aggregate defense readiness, acquisition, sustainment, logistics, or resilience bottleneck? |
+| [LIFELINE](https://github.com/giodl73-repo/LIFELINE) | Can income-security benefits remain reachable and continuous enough to support household stability? |
+| [COVENANT](https://github.com/giodl73-repo/COVENANT) | Can veterans sustain life-course service continuity with explicit access and safety floors? |
+| [TRIBUNAL](https://github.com/giodl73-repo/TRIBUNAL) | Can rights-bounded caseflow produce timely, legible, and durable resolution? |
+| [ENVOY](https://github.com/giodl73-repo/ENVOY) | Does international assistance reach intended recipients and produce durable outcomes rather than delivery activity alone? |
+
+These are public, aggregate analysis systems—not individual advice, official
+plans, classified or protected operational systems, or claims that one domain's
+metric can stand in for another. The full evidence boundaries are in
+[Applied Systems](series/applied-systems.md).
+
+The portfolio also adds
+[STACK-AND-TRACK](https://github.com/giodl73-repo/STACK-AND-TRACK), a
+closed-loop methodology for comparing expected impact with realized gains and
+reprioritizing the next sufficient stack, and
+[FACTORIUM](https://github.com/giodl73-repo/FACTORIUM), a reviewed encyclopedia
+of decomposition patterns with canonical Factor Tables and deterministic
+reference interchange.
 
 ## The MD family
 
