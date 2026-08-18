@@ -164,6 +164,16 @@ The repos are not isolated experiments. They form layers:
 That is the through-line: build the artifact, build the evaluator, then promote
 the reusable Rust substrate when more than one system needs it.
 
+## Retained front-door proof
+
+```powershell
+pwsh -NoProfile -File tests\check-proof.ps1
+pwsh -NoProfile -File tools\check-local-links.ps1 README.md
+```
+
+The profile's local series links are accepted. The retained invalid profile is
+rejected with a structured `missing local link target` failure.
+
 ## Reach me
 
 - **Email:** giodl73@gmail.com
