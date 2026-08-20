@@ -124,7 +124,7 @@ Markdown → MDPATH → MDCROP → PROOF → MDPORT
 These five repos show the portfolio's artifact-to-context through-line: TAXLANE
 is the new evidence-to-rate knowledge-system highlight; ROUTE is the
 public-systems flagship; MDCROP selects relevant source context; LATTICE closes
-and explains that context; FLETCHER records and replays how an AI harness used
+and explains that context; WITNESS records and replays how an AI harness used
 it.
 
 | Repo | What it demonstrates |
@@ -133,7 +133,7 @@ it.
 | [ROUTE](https://github.com/giodl73-repo/ROUTE) | Evidence-gated Interstate 2.0 research, simulation, maps, design doctrine, and reviewed papers. |
 | [MDCROP](https://github.com/giodl73-repo/MDCROP) | Graph-cut context selection and provenance-aware corpus tooling. |
 | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Deterministic context closure, meet/join, budgets, frontiers, and receipts. |
-| [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Replayable AI harness events, checkpoints, and LATTICE handoffs. |
+| [WITNESS](https://github.com/giodl73-repo/WITNESS) | Replayable AI harness events, checkpoints, and LATTICE handoffs. |
 
 ROUTE is open for reference, review, and local adaptation; start with the
 [open adoption guide](https://github.com/giodl73-repo/ROUTE/blob/master/docs/adoption/README.md).

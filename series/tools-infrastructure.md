@@ -9,7 +9,7 @@ manifests, shared kernels, and graph partitioning.
 | [PROOF](https://github.com/giodl73-repo/PROOF) | Markdown compiler and checker for terminal-first documents, dashboards, math, and diagrams. |
 | [MDCROP](https://github.com/giodl73-repo/MDCROP) | Markdown corpus indexing, graph selection, and bounded context packing. |
 | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Product-neutral context algebra for deterministic closure, meet/join, budgets, frontiers, packs, and receipts. |
-| [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Replayable AI harness event, checkpoint, and LATTICE handoff contracts with a minimal public CLI. |
+| [WITNESS](https://github.com/giodl73-repo/WITNESS) | Replayable AI harness event, checkpoint, and LATTICE handoff contracts with a minimal public CLI. |
 | [FLETCH](https://github.com/giodl73-repo/FLETCH) | Shared fetch/cache/bundle substrate for reproducible data acquisition across ROUTE, BISECT, and ICELINES. |
 | [RLINE](https://github.com/giodl73-repo/RLINE) | Shared Rust graph, context, statistics, math, optimization, and history kernels. |
 | [METIS-CORE](https://github.com/giodl73-repo/METIS-CORE) | Pure Rust multilevel graph partitioning engine. |
@@ -39,7 +39,7 @@ PROOF live here because their primary artifacts are executable Rust tools.
 ## Context & Harness family
 
 ```text
-Sources → FLETCH → MDCROP → LATTICE → FLETCHER
+Sources → FLETCH → MDCROP → LATTICE → WITNESS
            fetch     select     close       replay
 ```
 
@@ -48,7 +48,7 @@ Sources → FLETCH → MDCROP → LATTICE → FLETCHER
 | Acquisition | [FLETCH](https://github.com/giodl73-repo/FLETCH) | Fetch, verify, cache, partition, and bundle source material. |
 | Candidate selection | [MDCROP](https://github.com/giodl73-repo/MDCROP) | Find and pack a bounded source neighborhood with provenance. |
 | Semantic closure | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Close, combine, budget, explain, and receipt context. |
-| Harness capture and replay | [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Record, checkpoint, project, and replay how an AI harness uses context. |
+| Harness capture and replay | [WITNESS](https://github.com/giodl73-repo/WITNESS) | Record, checkpoint, project, and replay how an AI harness uses context. |
 
 The family is a pipeline, not a monolith. Each repository can be adopted
 independently, and each boundary remains inspectable.
@@ -56,7 +56,7 @@ independently, and each boundary remains inspectable.
 METIS-CORE supplies optional low-level graph partitioning without owning
 context semantics.
 
-The public LATTICE and FLETCHER repositories are product-neutral cores. They do
+The public LATTICE and WITNESS repositories are product-neutral cores. They do
 not include private sessions, customer material, approval records, funding
 material, or organization-specific integrations.
 
