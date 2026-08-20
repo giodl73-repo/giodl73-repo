@@ -108,7 +108,7 @@ The MD family is a four-stage Markdown toolchain. Each repository owns one
 boundary, so the stack is easy to adopt one layer at a time:
 
 ```text
-Markdown → MDPATH → MDCROP → MDLOOM → MDPORT
+Markdown → MDPATH → MDCROP → PROOF → MDPORT
              address    select     build      transfer
 ```
 
@@ -116,7 +116,7 @@ Markdown → MDPATH → MDCROP → MDLOOM → MDPORT
 |------|----------------|
 | [MDPATH](https://github.com/giodl73-repo/MDPATH) | Give headings, figures, tables, and sections stable `md://` addresses. |
 | [MDCROP](https://github.com/giodl73-repo/MDCROP) | Index, graph, filter, and select bounded Markdown corpus context. |
-| [MDLOOM](https://github.com/giodl73-repo/MDLOOM) | Validate, compile, render, and publish Markdown into human-facing formats. |
+| [PROOF](https://github.com/giodl73-repo/PROOF) | Validate, compile, render, and publish Markdown into human-facing formats. |
 | [MDPORT](https://github.com/giodl73-repo/MDPORT) | Carry compact `mdport.v1` document and corpus-slice records between tools. |
 
 ## Start with

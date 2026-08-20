@@ -6,7 +6,7 @@ manifests, shared kernels, and graph partitioning.
 
 | Repo | Role |
 |------|------|
-| [MDLOOM](https://github.com/giodl73-repo/MDLOOM) | Markdown compiler and checker for terminal-first documents, dashboards, math, and diagrams. |
+| [PROOF](https://github.com/giodl73-repo/PROOF) | Markdown compiler and checker for terminal-first documents, dashboards, math, and diagrams. |
 | [MDCROP](https://github.com/giodl73-repo/MDCROP) | Markdown corpus indexing, graph selection, and bounded context packing. |
 | [LATTICE](https://github.com/giodl73-repo/LATTICE) | Product-neutral context algebra for deterministic closure, meet/join, budgets, frontiers, packs, and receipts. |
 | [FLETCHER](https://github.com/giodl73-repo/FLETCHER) | Replayable AI harness event, checkpoint, and LATTICE handoff contracts with a minimal public CLI. |
@@ -23,18 +23,18 @@ agent systems can all use them without inheriting each other's product logic.
 
 ## MD family
 
-MDLOOM and MDCROP are the executable members of a four-repository Markdown
+PROOF and MDCROP are the executable members of a four-repository Markdown
 toolchain:
 
 ```text
-Markdown → MDPATH → MDCROP → MDLOOM → MDPORT
+Markdown → MDPATH → MDCROP → PROOF → MDPORT
              address    select     build      transfer
 ```
 
 [MDPATH](https://github.com/giodl73-repo/MDPATH) and
 [MDPORT](https://github.com/giodl73-repo/MDPORT) live in Standards & Protocols
 because their primary artifacts are interoperable conventions. MDCROP and
-MDLOOM live here because their primary artifacts are executable Rust tools.
+PROOF live here because their primary artifacts are executable Rust tools.
 
 ## Context & Harness family
 

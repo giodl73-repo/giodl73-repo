@@ -6,7 +6,7 @@ repos can adopt without inheriting a full implementation stack.
 | Repo | Role |
 |------|------|
 | [MDPATH](https://github.com/giodl73-repo/MDPATH) | Stable `md://` URI library and addressing convention for headings, figures, tables, and diagrams in markdown corpora. |
-| [MDPORT](https://github.com/giodl73-repo/MDPORT) | Compact `mdport.v1` context transfer schema and Rust crate for AI-ready document and corpus slices shared by MDLOOM, MDCROP, and future tools. |
+| [MDPORT](https://github.com/giodl73-repo/MDPORT) | Compact `mdport.v1` context transfer schema and Rust crate for AI-ready document and corpus slices shared by PROOF, MDCROP, and future tools. |
 | [ROLES](https://github.com/giodl73-repo/ROLES) | Portable `.roles` convention for repository-local review panels, role metadata, and review/authoring skills. |
 
 ## Why these belong together
@@ -25,10 +25,10 @@ Infrastructure when its primary public surface is executable shared code.
 MDPATH and MDPORT are the protocol endpoints of the broader MD family:
 
 ```text
-Markdown → MDPATH → MDCROP → MDLOOM → MDPORT
+Markdown → MDPATH → MDCROP → PROOF → MDPORT
              address    select     build      transfer
 ```
 
 [MDCROP](https://github.com/giodl73-repo/MDCROP) and
-[MDLOOM](https://github.com/giodl73-repo/MDLOOM) are the executable middle
+[PROOF](https://github.com/giodl73-repo/PROOF) are the executable middle
 layers and therefore live in Tools & Infrastructure.
