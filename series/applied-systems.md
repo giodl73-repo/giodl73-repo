@@ -145,6 +145,7 @@ demand basis, review panel, evidence labels, and domain-specific failure modes.
 
 | Repo | Role | Start here |
 |------|------|------------|
+| [OSW](https://github.com/giodl73-repo/OSW) | **Ocean States of the World**—an evidence-qualified fluid atlas of 56 approximate surface provinces plus overlapping waters, currents, fronts, seafloor structures, living systems, events, and observational layers. | [Public Atlas 07](https://giodl73-repo.github.io/OSW/atlas/) |
 | [ICELINES](https://github.com/giodl73-repo/ICELINES) | NHL analytics, fantasy tools, season data, and historical player/team comparisons. | [Public site](https://giodl73-repo.github.io/ICELINES/) |
 | [ZONES](https://github.com/giodl73-repo/ZONES) | Time-zone redistricting along civic boundaries using reusable graph and district-plan systems. | [Open adoption guide](https://github.com/giodl73-repo/ZONES/blob/main/docs/adoption/README.md) |
 

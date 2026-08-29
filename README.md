@@ -102,6 +102,13 @@ reprioritizing the next sufficient stack, and
 separating a concept's senses, comparing its possible decompositions, and
 preserving the evidence and constraints that make those distinctions useful.
 
+[OSW — Ocean States of the World](https://github.com/giodl73-repo/OSW) is the
+portfolio's ocean-science atlas: 56 approximate surface provinces form a
+state-like base map while waters, currents, fronts, depth layers, seafloor
+structures, living systems, and events overlap them. The public site currently
+serves reviewed [Atlas 07](https://giodl73-repo.github.io/OSW/atlas/); later
+atlases remain separately governed previews.
+
 ## The MD family
 
 The MD family is a four-stage Markdown toolchain. Each repository owns one
