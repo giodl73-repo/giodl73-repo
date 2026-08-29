@@ -10,29 +10,29 @@ keep it honest with rubrics, panels, provenance, and executable validation.
 | [LUCIA](https://github.com/giodl73-repo/LUCIA) | Human chronicle: cultures told from inside their own worldview. |
 | [MAXIM](https://github.com/giodl73-repo/MAXIM) | Peer-level reference library across computing, science, arts, and material culture. |
 | [CERES](https://github.com/giodl73-repo/CERES) | Local production atlas for evaluating modern artisan-production equipment and civic-scale viability. |
-| [FACTORIUM](https://github.com/giodl73-repo/FACTORIUM) | Reviewed encyclopedia of decomposition patterns with canonical Factor Tables, specialized views, and deterministic interchange. |
+| [LEXICON](https://github.com/giodl73-repo/LEXICON) | Factor-preserving reference system for separating senses, comparing decompositions, and retaining evidence and constraints. |
 | [TAXLANE](https://github.com/giodl73-repo/TAXLANE) | Evidence-gated federal spending and income-tax analysis: fifteen tracks, one accounting spine, and a rate result that refuses unsupported savings. |
 
-## FACTORIUM highlight
+## LEXICON highlight
 
-FACTORIUM asks a reference-design question: **what changes when a concept is
+LEXICON asks a reference-design question: **what changes when a concept is
 made comparable through explicit senses, factors, constraints, alternatives,
 and evidence rather than compressed into one definition?**
 
-Its canonical corpus currently owns 27 entries, 162 senses, 266 ordered
-factors, and 39 specialized views. Deterministic tooling regenerates the
-catalog and unresolved-candidate queue from one exact interchange file, while
-seventeen review lenses keep mappings, formulas, evidence, schema, and
-publication claims separate.
+Its reviewed corpus separates a term's competing meanings before comparing the
+factors that matter within each meaning. Deterministic tooling keeps the
+catalog, specialized views, candidate material, and evidence relationships
+consistent, while distinct review lenses prevent mappings, formulas, schema,
+and publication claims from being mistaken for one another.
 
 The central principle is that decomposition is useful only when it preserves
 the distinctions a reader needs. More factors are not automatically better,
 and implementation mechanisms do not become universal definitions merely
 because they are familiar.
 
-Start at the [FACTORIUM repository](https://github.com/giodl73-repo/FACTORIUM).
-Its recent additions are reviewed candidate content; independent reader
-evidence remains a separate external-usability gate.
+Start at the [LEXICON repository](https://github.com/giodl73-repo/LEXICON).
+Its repository README owns current corpus counts and validation evidence;
+independent reader evidence remains a separate external-usability gate.
 
 ## TAXLANE highlight
 
