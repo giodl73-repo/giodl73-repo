@@ -98,9 +98,9 @@ The portfolio also adds
 [STACK-AND-TRACK](https://github.com/giodl73-repo/STACK-AND-TRACK), a
 closed-loop methodology for comparing expected impact with realized gains and
 reprioritizing the next sufficient stack, and
-[FACTORIUM](https://github.com/giodl73-repo/FACTORIUM), a reviewed encyclopedia
-of decomposition patterns with canonical Factor Tables and deterministic
-reference interchange.
+[LEXICON](https://github.com/giodl73-repo/LEXICON), a reviewed reference for
+separating a concept's senses, comparing its possible decompositions, and
+preserving the evidence and constraints that make those distinctions useful.
 
 ## The MD family
 
