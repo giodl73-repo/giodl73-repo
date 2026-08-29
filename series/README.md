@@ -14,4 +14,4 @@ engines.
 | Election Systems | District construction, reusable plan packages, count evidence, and audit replay. | [election-systems.md](election-systems.md) |
 | Standards & Protocols | Portable identifiers, transfer formats, and repository conventions. | [standards-protocols.md](standards-protocols.md) |
 | Tools & Infrastructure | Compilation, context selection and algebra, harness replay, data acquisition, and graph kernels. | [tools-infrastructure.md](tools-infrastructure.md) |
-| Applied Systems | Evidence-heavy workbenches for sports, public infrastructure, access, and public guarantees. | [applied-systems.md](applied-systems.md) |
+| Applied Systems | Evidence-heavy workbenches for transportation, connectivity, public access, civic boundaries, and applied analytics. | [applied-systems.md](applied-systems.md) |
