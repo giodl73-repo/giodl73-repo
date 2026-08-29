@@ -18,9 +18,8 @@ PUBLIC SOURCES → CORPUS → SCORE → SERVICE PROMISE → GAP MAP
 | Lane | Repositories |
 |------|--------------|
 | Movement | ROUTE, GAUGE, TARMAC, HARBOR |
-| Lifelines | PYLON, PACKET, BASIN, DRAIN |
+| Connectivity | PACKET |
 | Public access | SHIELD, SLATE |
-| Public guarantees | ANCHOR, BASTION, LIFELINE, COVENANT, TRIBUNAL, ENVOY |
 | Civic boundaries | ZONES |
 
 The family shares evidence labels, explicit scale and demand bases, T1–T4
@@ -31,46 +30,18 @@ limits, privacy boundaries, and regulatory claims remain repo-owned.
 | System | Repo | Public question | Current evidence |
 |--------|------|-----------------|------------------|
 | Highways | [ROUTE](https://github.com/giodl73-repo/ROUTE) | What should the next national road network promise? | **Flagship:** corridor research, service tiers, optimizer, simulation, maps, and evidence-labelled design. |
-| Electric grid | [PYLON](https://github.com/giodl73-repo/PYLON) | Where do transfer capability, congestion, redundancy, resilience, or interconnection headroom fail a declared grid promise? | **Core ready:** transmission analysis workspace; first cited system run is next. |
 | Passenger rail | [GAUGE](https://github.com/giodl73-repo/GAUGE) | Which corridors fail a credible trip-time, frequency, reliability, or connectivity promise? | **Cited analysis:** 12-corridor frequency run; 8 below the declared bar. |
 | Connectivity | [PACKET](https://github.com/giodl73-repo/PACKET) | Where do coverage, capacity, latency, resilience, affordability, or competition fall short? | **Cited analysis:** broadband-divide run with both tested dimensions 50% below the bar. |
 | Ports | [HARBOR](https://github.com/giodl73-repo/HARBOR) | Where do channel access, dwell, throughput, hinterland connection, or resilience constrain a gateway? | **Cited analysis:** channel-adequacy run across eight US gateways. |
-| Water | [BASIN](https://github.com/giodl73-repo/BASIN) | Where do supply, demand, storage, conveyance, reuse, resilience, or access fail a declared tier? | **Core ready:** scale-aware analysis workspace; first cited system run is next. |
-| Wastewater | [DRAIN](https://github.com/giodl73-repo/DRAIN) | Where do collection, conveyance, overflow control, treatment, recovery, or affordability fail a sanitation promise? | **Core ready:** scale-aware sanitation analysis; first cited utility run is next. |
 | Aviation | [TARMAC](https://github.com/giodl73-repo/TARMAC) | Where do delay, capacity, connectivity, resilience, competition, or access fail a declared tier? | **Core ready:** scale-aware analysis workspace; first cited network run is next. |
 | Healthcare access | [SHIELD](https://github.com/giodl73-repo/SHIELD) | Where do travel, capacity, workforce, referral continuity, affordability, or surge resilience fail? | **Transfer test:** synthetic, aggregate-only core; no patient records or medical advice. |
 | Education access | [SLATE](https://github.com/giodl73-repo/SLATE) | Where do seats, educators, programs, pathways, affordability, or resilience fail? | **Corroboration test:** synthetic, aggregate-only core; no student records or individual advice. |
 
-The sibling analysis cores are released at `v0.1.0`. ROUTE remains the deeper
-flagship and proving ground. GAUGE, PACKET, and HARBOR already have cited
-findings and open local-adaptation paths; PYLON, BASIN, DRAIN, and TARMAC are
-ready for narrowly scoped first public runs; SHIELD and SLATE are aggregate-only
-transfer tests with explicit privacy and non-advice boundaries.
-
-## Public Guarantees 2.0
-
-**Start with the outcome people must be able to rely on, not the size of the
-program intended to provide it.**
-
-These six repos extend the evidence-gated method from physical networks and
-public access into public guarantees. Each keeps access, continuity,
-administration, capacity, safeguards, and durable outcomes visible while
-preserving domain-specific rights, privacy, evidence, and non-advice
-boundaries.
-
-| System | Repo | Public question | Boundary |
-|--------|------|-----------------|----------|
-| Retirement and disability | [ANCHOR](https://github.com/giodl73-repo/ANCHOR) | Can people reach and sustain adequate support while administration and solvency remain legible? | Aggregate analysis; no individual eligibility or benefit advice. |
-| Defense | [BASTION](https://github.com/giodl73-repo/BASTION) | Where do readiness, acquisition, sustainment, logistics, or resilience fail an aggregate public promise? | Public evidence only; no classified data or operational advice. |
-| Income security | [LIFELINE](https://github.com/giodl73-repo/LIFELINE) | Can eligible households maintain benefit continuity and stability across access and administrative friction? | Aggregate analysis; no individual eligibility or benefit advice. |
-| Veterans services | [COVENANT](https://github.com/giodl73-repo/COVENANT) | Can veterans sustain life-course service continuity with explicit access and safety floors? | No individual benefits, legal, or medical advice. |
-| Justice | [TRIBUNAL](https://github.com/giodl73-repo/TRIBUNAL) | Can rights-bounded caseflow produce timely, legible, and durable resolution? | No legal advice or individual case assessment. |
-| International affairs | [ENVOY](https://github.com/giodl73-repo/ENVOY) | Does assistance reach intended recipients and produce durable outcomes rather than delivery activity alone? | No diplomatic, security, or operational advice. |
-
-Their shared method does not make the domains interchangeable. Readiness is not
-solvency, benefit continuity is not caseflow, and delivery is not durable
-outcome realization. Each repository owns its own sources, dimensions,
-evidence gates, and claims.
+The public analysis cores are released at `v0.1.0`. ROUTE remains the deeper
+flagship and proving ground. GAUGE, PACKET, and HARBOR have cited findings and
+open local-adaptation paths; TARMAC is ready for a narrowly scoped first public
+run; SHIELD and SLATE are aggregate-only transfer tests with explicit privacy
+and non-advice boundaries.
 
 ## Open adoption paths
 
@@ -80,9 +51,6 @@ evidence gates, and claims.
 | [GAUGE](https://github.com/giodl73-repo/GAUGE) | [Local adaptation guide](https://github.com/giodl73-repo/GAUGE/blob/master/docs/adoption/README.md) |
 | [PACKET](https://github.com/giodl73-repo/PACKET) | [Local adaptation guide](https://github.com/giodl73-repo/PACKET/blob/master/docs/adoption/README.md) |
 | [HARBOR](https://github.com/giodl73-repo/HARBOR) | [Local adaptation guide](https://github.com/giodl73-repo/HARBOR/blob/master/docs/adoption/README.md) |
-| [PYLON](https://github.com/giodl73-repo/PYLON) | [First public run guide](https://github.com/giodl73-repo/PYLON/blob/master/docs/adoption/README.md) |
-| [BASIN](https://github.com/giodl73-repo/BASIN) | [First public run guide](https://github.com/giodl73-repo/BASIN/blob/master/docs/adoption/README.md) |
-| [DRAIN](https://github.com/giodl73-repo/DRAIN) | [First public run guide](https://github.com/giodl73-repo/DRAIN/blob/master/docs/adoption/README.md) |
 | [TARMAC](https://github.com/giodl73-repo/TARMAC) | [First public run guide](https://github.com/giodl73-repo/TARMAC/blob/master/docs/adoption/README.md) |
 | [SHIELD](https://github.com/giodl73-repo/SHIELD) | [Aggregate review guide](https://github.com/giodl73-repo/SHIELD/blob/master/docs/adoption/README.md) |
 | [SLATE](https://github.com/giodl73-repo/SLATE) | [Aggregate review guide](https://github.com/giodl73-repo/SLATE/blob/master/docs/adoption/README.md) |

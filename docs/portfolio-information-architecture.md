@@ -65,7 +65,7 @@ an inspectable learning loop.
 
 | Capability line | Repositories | Message |
 |---|---|---|
-| Decisions and evidence | SIGNALS, FRAMES | State hypotheses, capture evidence, and preserve the reasoning frame. |
+| Decisions and evidence | SIGNALS | State hypotheses, capture evidence, and preserve the reasoning frame. |
 | Review and challenge | PANEL, ROLES | Apply explicit reviewer lenses without presenting simulation as external validation. |
 | Planning and learning | VTRACE, STACK-AND-TRACK | Trace intent to verification, then compare expected impact with realized gain. |
 | Public portfolio | giodl73-repo | Project the governed public narrative without exposing private coordination state. |
@@ -80,10 +80,9 @@ instead of turning concepts into official plans.
 
 | Capability line | Repositories | Message |
 |---|---|---|
-| Movement and networks | ROUTE, GAUGE, HARBOR, TARMAC, PACKET, PYLON, BASIN, DRAIN | Compare capacity, access, connectivity, resilience, and service gaps using domain-owned measures. |
-| Public guarantees | ANCHOR, BASTION, LIFELINE, COVENANT, TRIBUNAL, ENVOY | Start with the outcome people must be able to rely on, then test access, continuity, administration, safeguards, and durability. |
+| Movement and networks | ROUTE, GAUGE, HARBOR, TARMAC, PACKET | Compare capacity, access, connectivity, resilience, and service gaps using domain-owned measures. |
 | Public access | SHIELD, SLATE | Study aggregate access and delivery capacity without individual medical, educational, or eligibility advice. |
-| Civic evidence | BISECT, RPLAN, RCOUNT, RATIFY, ZONES | Make boundaries, plans, counts, governance rules, and audit packages reproducible. |
+| Civic evidence | BISECT, RPLAN, RCOUNT, ZONES | Make boundaries, plans, counts, and audit packages reproducible. |
 | Fiscal evidence | TAXLANE | Admit spending and rate conclusions only after explicit accounting and evidence gates. |
 
 Recommended entry: ROUTE for the deepest applied-system example; TAXLANE for
@@ -96,11 +95,10 @@ meaning, provenance, and uncertainty remain explicit.
 
 | Capability line | Repositories | Message |
 |---|---|---|
-| Reference and meaning | LEXICON, MAXIM, LEXIS, CANON | Separate senses, preserve canonical identity, and make reference structures comparable. |
+| Reference and meaning | LEXICON, MAXIM | Separate senses, preserve canonical identity, and make reference structures comparable. |
 | Sources and survival | FONTES, RUINS | Track custody, loss, fragments, uncertainty, and responsible reconstruction. |
-| Worlds, places, and history | LUCIA, MUNDUS, PORTO, DUCHY | Model cultures, places, assets, routes, titles, and continuity without collapsing their perspectives. |
-| Living systems | FAUNA, FLORA, GENES, STORM | Organize biological and environmental knowledge with explicit domain boundaries. |
-| Production and practice | CERES, RITE | Connect reference knowledge to local production, practice, and repeatable evaluation. |
+| Worlds, places, and history | LUCIA | Preserve cultural and historical perspectives without collapsing them into one voice. |
+| Production and practice | CERES | Connect reference knowledge to local production and repeatable evaluation. |
 
 Recommended entry: LEXICON for structured meaning; LUCIA for human narrative;
 CERES for applied reference work.
@@ -112,7 +110,7 @@ where rules, simulations, interfaces, and failure modes can be tested.
 
 | Capability line | Repositories | Message |
 |---|---|---|
-| Designed experiences | HUNT, QUEST, TIGRIS, AMAZE, BANISH | Build puzzle, tabletop, escape-room, and simulated-world experiences through iteration and play evidence. |
+| Designed experiences | HUNT, TIGRIS | Build puzzle and tabletop experiences through iteration and play evidence. |
 | Shared experience infrastructure | MUDDLE, RALLY, COURT, RACKET | Reuse deterministic simulation, portable state, commands, scenes, and presentation adapters. |
 | Games and sports evidence | PARLOR, ICELINES | Verify classic game kernels and make sports comparisons traceable to data and assumptions. |
 
@@ -145,7 +143,7 @@ agents, evidence, graphs, scenarios, and production Rust systems.
 | Context and harness evidence | FLETCH, LATTICE, WITNESS | Acquire sources, compute context closure, and replay how an AI harness used them. |
 | Contracts and scenarios | RUNE, SCENARIUM, VTRACE | Define neutral contracts, run deterministic scenarios, and connect requirements to verification. |
 | Rust kernels | RLINE, METIS-CORE, SLICE | Reuse graph, partitioning, selection, expression, statistics, and optimization machinery. |
-| Production engineering | FERRIS, KILN | Establish compatible Rust application and build/release foundations. |
+| Production engineering | FERRIS | Establish compatible Rust application and build/release foundations. |
 
 Recommended entry: the Markdown family for an end-to-end toolchain; LATTICE and
 WITNESS for agent context; FERRIS for production Rust engineering.

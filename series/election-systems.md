@@ -10,7 +10,6 @@ between them.
 | [BISECT](https://github.com/giodl73-repo/BISECT) | Rust redistricting engine for recursive bisection, analysis, reporting, and verification. |
 | [RPLAN](https://github.com/giodl73-repo/RPLAN) | Reusable district-plan package, IO, audit, and CLI contracts. |
 | [RCOUNT](https://github.com/giodl73-repo/RCOUNT) | Reusable election-count package verification, audit replay, and district aggregation. |
-| [RATIFY](https://github.com/giodl73-repo/RATIFY) | Separate governance-research product for citizen lawmaking, program reauthorization, and consensus experiments. |
 
 ## Why these belong together
 
@@ -34,7 +33,3 @@ RLINE — kernels ────┤                                               
 because it is product-neutral. RPLAN and RCOUNT live here because their durable
 contracts are election evidence packages. BISECT owns product algorithms,
 research, maps, and reports.
-
-RATIFY shares the broader civic-evidence ethos but is not part of this runtime
-dependency chain; its outputs are institutional research and synthetic
-experiments, not district-plan or election-count packages.
