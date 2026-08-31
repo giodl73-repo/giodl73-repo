@@ -54,6 +54,11 @@ Invoke-GitGrep "not enacted law\|not individual advice\|Core ready\|Cited analys
 if ($LASTEXITCODE -ne 0) {
   throw "Retained front-door link proof failed."
 }
+Invoke-GitGrep "LEXICON" @(
+  "README.md",
+  "series/knowledge-systems.md"
+)
+Assert-NoPublicMatch "FACTORIUM|Factorium|factorium"
 
 # Checks GIODL73-PF-04: public pages must not expose private process surfaces.
 Assert-NoPublicMatch "C:\\|context[\\/]+waves|pulse-[0-9]+|TRACKER-only|local staging|unpublished implementation"

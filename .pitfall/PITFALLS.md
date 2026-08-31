@@ -109,15 +109,18 @@ authority.
 the stale label can hide until a reader follows a deeper path or branch-specific
 document link.
 
-**Structural solution:** Treat renames and moves as link-steward events and run
-the retained local-link proof after profile or series edits.
+**Structural solution:** Treat renames and moves as link-steward events, keep
+renamed repo labels and URLs aligned with TRACKER, and run the retained
+local-link proof after profile or series edits.
 
 **Evidence:** `tools/check-local-links.ps1`, `tests/check-proof.ps1`,
 `series/README.md`, and `.roles/parliament/repo-link-steward.md`.
 
-**Test:** `tests/check-pitfall-policy.ps1`
+**Test:** `tests/check-pitfall-policy.ps1` verifies retained local-link proof,
+requires the renamed `LEXICON` public pointer, and rejects stale `FACTORIUM`
+public labels or URLs.
 
-**Status:** OPEN
+**Status:** MITIGATED
 
 ## GIODL73-PF-04: Private Process Leaks Into Public Narrative
 

@@ -98,7 +98,7 @@ The portfolio also adds
 [STACK-AND-TRACK](https://github.com/giodl73-repo/STACK-AND-TRACK), a
 closed-loop methodology for comparing expected impact with realized gains and
 reprioritizing the next sufficient stack, and
-[FACTORIUM](https://github.com/giodl73-repo/FACTORIUM), a reviewed encyclopedia
+[LEXICON](https://github.com/giodl73-repo/LEXICON), a reviewed encyclopedia
 of decomposition patterns with canonical Factor Tables and deterministic
 reference interchange.
 
