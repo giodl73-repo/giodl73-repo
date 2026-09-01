@@ -31,12 +31,15 @@ creep in gradually until the profile looks authoritative but stale.
 **Structural solution:** Keep the profile as public map and entry point; link
 to child repos for evidence and keep complete portfolio state in TRACKER.
 
-**Evidence:** `CLAUDE.md`, `README.md`, and
-`.roles/parliament/series-narrative-curator.md`.
+**Evidence:** `CLAUDE.md`, `README.md`,
+`.roles/parliament/series-narrative-curator.md`, and
+`docs/public-boundaries.v1.json`.
 
-**Test:** `tests/check-pitfall-policy.ps1`
+**Test:** `tests/check-pitfall-policy.ps1` verifies the public boundary
+manifest keeps complete registry, readiness, dependency, snapshot, and backlog
+authority with TRACKER.
 
-**Status:** OPEN
+**Status:** MITIGATED
 
 ## GIODL73-PF-02: Highlight Text Overclaims Repo Maturity
 
@@ -72,12 +75,15 @@ claim, and defer detailed evidence to the child repo's README, VTRACE, papers,
 or adoption guide.
 
 **Evidence:** `README.md`, `series/applied-systems.md`,
-`series/knowledge-systems.md`, and
-`.roles/parliament/public-surface-scrubber.md`.
+`series/knowledge-systems.md`,
+`.roles/parliament/public-surface-scrubber.md`, and
+`docs/public-boundaries.v1.json`.
 
-**Test:** `tests/check-pitfall-policy.ps1`
+**Test:** `tests/check-pitfall-policy.ps1` verifies compressed highlight
+claims retain blocked maturity and endorsement boundaries owned by child repo
+evidence.
 
-**Status:** OPEN
+**Status:** MITIGATED
 
 ## GIODL73-PF-03: Repo Rename Leaves Stale Public Pointers
 
@@ -155,12 +161,15 @@ workspace.
 **Structural solution:** Run public-surface review before publication and keep
 private sequencing in TRACKER or child repo wave records.
 
-**Evidence:** `CLAUDE.md`, `README.md`, and
-`.roles/parliament/public-surface-scrubber.md`.
+**Evidence:** `CLAUDE.md`, `README.md`,
+`.roles/parliament/public-surface-scrubber.md`, and
+`docs/public-boundaries.v1.json`.
 
-**Test:** `tests/check-pitfall-policy.ps1`
+**Test:** `tests/check-pitfall-policy.ps1` verifies the public boundary
+manifest blocks private paths, TRACKER-only queues, unpublished implementation
+history, and unexplained agent workflow terms.
 
-**Status:** OPEN
+**Status:** MITIGATED
 
 ## GIODL73-PF-05: Series Pages Become A Second Taxonomy
 

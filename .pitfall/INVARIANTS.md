@@ -76,3 +76,20 @@ handoff file.
 
 **Enforcement:** Public-facing edits use the Public Surface Scrubber role before
 push.
+
+## GIODL73-I-06: Public Boundaries Stay Machine-Readable
+
+**Status:** VERIFIED
+
+**Invariant:** The public front door keeps a machine-readable boundary manifest
+that identifies which claims belong to giodl73-repo, TRACKER, child repos, and
+private coordination records.
+
+**Why it matters:** Public copy is compressed by design. A structured boundary
+keeps compression from turning into authority drift, maturity overclaiming, or
+private-process leakage.
+
+**Evidence:** `docs/public-boundaries.v1.json` and
+`tests/check-pitfall-policy.ps1`.
+
+**Test:** `powershell -NoProfile -ExecutionPolicy Bypass -File tests\check-pitfall-policy.ps1`.
