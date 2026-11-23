@@ -28,7 +28,7 @@ portfolio of personal-account repos.
 
 `README.md` and `series/` are the public map. They now cover AI methodology,
 games, knowledge systems, design labs, elections, standards, tools, and applied
-systems, including the Public Guarantees 2.0 siblings, FACTORIUM, and
+systems, including the Public Guarantees 2.0 siblings, LEXICON, and
 STACK-AND-TRACK. Do not maintain a second exhaustive repo list here.
 
 ## Conventions across all public repos
