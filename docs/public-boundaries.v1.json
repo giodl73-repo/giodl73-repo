@@ -1,0 +1,58 @@
+{
+  "$schema": "giodl73-repo.public-boundaries.v1",
+  "owner": "giodl73-repo",
+  "purpose": "Machine-readable boundaries for the public portfolio front door.",
+  "authority": {
+    "public_navigation_and_narrative": "giodl73-repo",
+    "complete_registry_readiness_dependencies_snapshots_and_backlog": "TRACKER",
+    "detailed_repo_evidence_maturity_and_validation": "child repositories",
+    "private_coordination_and_unpublished_work_queues": "TRACKER and child repo wave records"
+  },
+  "public_surface": [
+    "README.md",
+    "series/*.md"
+  ],
+  "pitfall_boundaries": [
+    {
+      "pitfall": "GIODL73-PF-01",
+      "boundary": "The front door may summarize and route, but it must not become the complete portfolio source of truth.",
+      "blocked_claims": [
+        "front door is the complete portfolio registry",
+        "front door owns readiness, dependency, snapshot, or backlog state",
+        "series pages replace TRACKER portfolio taxonomy"
+      ],
+      "required_owner": "TRACKER"
+    },
+    {
+      "pitfall": "GIODL73-PF-02",
+      "boundary": "Compressed highlights must retain evidence labels and limitation language.",
+      "blocked_claims": [
+        "prototype result is deployed",
+        "internal analysis is customer validated",
+        "public reference artifact is official or externally endorsed",
+        "transfer test proves child repo maturity without child evidence"
+      ],
+      "required_owner": "child repositories"
+    },
+    {
+      "pitfall": "GIODL73-PF-04",
+      "boundary": "Public copy must not expose private coordination surfaces.",
+      "blocked_claims": [
+        "public copy can mention local private paths",
+        "public copy can publish TRACKER-only queues",
+        "public copy can expose unpublished implementation history",
+        "public copy can rely on unexplained agent workflow terms"
+      ],
+      "required_owner": "giodl73-repo public-surface review"
+    }
+  ],
+  "review_roles": [
+    ".roles/parliament/series-narrative-curator.md",
+    ".roles/parliament/public-surface-scrubber.md",
+    ".roles/parliament/repo-link-steward.md"
+  ],
+  "validation": [
+    "tests/check-pitfall-policy.ps1",
+    "tests/check-proof.ps1"
+  ]
+}
